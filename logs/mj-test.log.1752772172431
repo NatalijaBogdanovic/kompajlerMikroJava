@@ -1,0 +1,23 @@
+INFO  19:05:28,367 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  19:05:28,392 - #2 program
+INFO  19:05:28,392 - #15 MJProgram
+INFO  19:05:28,392 - #15 int
+INFO  19:05:28,393 - #15 x
+INFO  19:05:28,395 - #5 ;
+INFO  19:05:28,395 - #15 int
+INFO  19:05:28,396 - #15 y
+INFO  19:05:28,396 - #5 ;
+INFO  19:05:28,396 - #3 {
+INFO  19:05:28,396 - #15 int
+INFO  19:05:28,397 - #15 main
+INFO  19:05:28,397 - #6 (
+INFO  19:05:28,398 - #7 )
+INFO  19:05:28,399 - #3 {
+INFO  19:05:28,399 - #4 }
+INFO  19:05:28,399 - #4 }
+INFO  19:05:28,407 - Deklarisana promenljiva x na liniji 2
+INFO  19:05:28,407 - Deklarisana promenljiva y na liniji 2
+INFO  19:05:28,407 - Obradjuje se funkcija main na liniji 4
+ERROR 19:05:28,409 - Semanticka greska na liniji 4: funcija main nema return iskaz!
+INFO  19:05:28,409 - Print calls = 0
+ERROR 19:05:28,409 - Parsiranje NIJE uspesno zavrseno!

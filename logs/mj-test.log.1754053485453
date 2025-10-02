@@ -1,0 +1,32 @@
+INFO  13:37:00,218 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  13:37:00,247 - #2 program
+INFO  13:37:00,247 - #15 MJProgram
+INFO  13:37:00,247 - #15 int
+INFO  13:37:00,249 - #15 x
+INFO  13:37:00,250 - #5 ;
+INFO  13:37:00,250 - #15 int
+INFO  13:37:00,251 - #15 y
+INFO  13:37:00,251 - #5 ;
+INFO  13:37:00,251 - #3 {
+INFO  13:37:00,251 - #15 int
+INFO  13:37:00,252 - #15 main
+INFO  13:37:00,252 - #6 (
+INFO  13:37:00,253 - #7 )
+INFO  13:37:00,254 - #3 {
+INFO  13:37:00,254 - #9 print
+INFO  13:37:00,254 - #6 (
+INFO  13:37:00,255 - #14 1
+INFO  13:37:00,255 - #7 )
+INFO  13:37:00,255 - #5 ;
+INFO  13:37:00,255 - #15 x
+INFO  13:37:00,256 - #12 =
+INFO  13:37:00,257 - #15 y
+INFO  13:37:00,257 - #11 +
+INFO  13:37:00,257 - #14 5
+INFO  13:37:00,258 - #11 +
+INFO  13:37:00,258 - #5 ;
+ERROR 13:37:00,258 - 
+Sintaksna greska na liniji 8
+INFO  13:37:00,258 - #9 print
+INFO  13:37:00,258 - #6 (
+INFO  13:37:00,258 - #14 2

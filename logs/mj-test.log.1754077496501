@@ -1,0 +1,127 @@
+INFO  21:40:36,620 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  21:40:36,705 - #2 program
+INFO  21:40:36,706 - #46 MJProgram
+INFO  21:40:36,706 - #46 int
+INFO  21:40:36,709 - #46 x
+INFO  21:40:36,710 - #5 ;
+INFO  21:40:36,711 - #46 int
+INFO  21:40:36,713 - #46 y
+INFO  21:40:36,713 - #5 ;
+INFO  21:40:36,713 - #26 {
+INFO  21:40:36,713 - #46 int
+INFO  21:40:36,714 - #46 main
+INFO  21:40:36,715 - #24 (
+INFO  21:40:36,715 - #25 )
+INFO  21:40:36,716 - #26 {
+INFO  21:40:36,718 - #13 print
+INFO  21:40:36,719 - #24 (
+INFO  21:40:36,719 - #47 1
+INFO  21:40:36,719 - #25 )
+INFO  21:40:36,721 - #5 ;
+INFO  21:40:36,721 - #46 x
+INFO  21:40:36,721 - #4 =
+INFO  21:40:36,722 - #46 y
+INFO  21:40:36,723 - #30 +
+INFO  21:40:36,723 - #47 5
+INFO  21:40:36,725 - #30 +
+INFO  21:40:36,725 - #5 ;
+ERROR 21:40:36,725 - 
+Sintaksna greska na liniji 8
+INFO  21:40:36,725 - #13 print
+INFO  21:40:36,726 - #24 (
+INFO  21:40:36,726 - #47 2
+ERROR 21:40:36,726 - Oporavak od greske pri dodeli vrednostina liniji 8
+INFO  21:40:36,727 - #25 )
+INFO  21:40:36,727 - #5 ;
+INFO  21:40:36,727 - #27 }
+INFO  21:40:36,727 - #27 }
+INFO  21:40:36,730 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        FirstPartVarDeclNoArr(
+         x
+        ) [FirstPartVarDeclNoArr]
+        NoOtherVarDecl(
+        ) [NoOtherVarDecl]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      FirstPartVarDeclNoArr(
+       y
+      ) [FirstPartVarDeclNoArr]
+      NoOtherVarDecl(
+      ) [NoOtherVarDecl]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartType(
+          Type(
+           int
+          ) [Type]
+         main
+        ) [MethodStartType]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      NoVarDecList(
+      ) [NoVarDecList]
+      StatementListGlobal(
+        StatementListGlobal(
+          StatementListGlobal(
+            NoStatementList(
+            ) [NoStatementList]
+            PrintStmt(
+              ExprFirstOpt(
+                ExprStartWithoutMinus(
+                  TermFactor(
+                    NumFactor(
+                     1
+                    ) [NumFactor]
+                  ) [TermFactor]
+                ) [ExprStartWithoutMinus]
+                NoExprAddopList(
+                ) [NoExprAddopList]
+              ) [ExprFirstOpt]
+            ) [PrintStmt]
+          ) [StatementListGlobal]
+          ErrorStmt(
+          ) [ErrorStmt]
+        ) [StatementListGlobal]
+        PrintStmt(
+          ExprFirstOpt(
+            ExprStartWithoutMinus(
+              TermFactor(
+                NumFactor(
+                 2
+                ) [NumFactor]
+              ) [TermFactor]
+            ) [ExprStartWithoutMinus]
+            NoExprAddopList(
+            ) [NoExprAddopList]
+          ) [ExprFirstOpt]
+        ) [PrintStmt]
+      ) [StatementListGlobal]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:40:36,730 - ===================================
+INFO  21:40:36,734 - Prepoznata naredba print
+INFO  21:40:36,734 - Prepoznata naredba print
+INFO  21:40:36,734 -  Print count calls = 2
+INFO  21:40:36,734 -  Var decl count = 2

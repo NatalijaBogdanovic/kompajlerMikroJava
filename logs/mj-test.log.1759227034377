@@ -1,0 +1,70 @@
+INFO  11:37:18,774 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  11:37:18,808 - #2 program
+INFO  11:37:18,808 - #46 MJProgram
+INFO  11:37:18,809 - #3 const
+INFO  11:37:18,809 - #46 int
+INFO  11:37:18,809 - #46 a
+INFO  11:37:18,809 - #4 =
+INFO  11:37:18,810 - #47 3
+INFO  11:37:18,810 - #6 ,
+INFO  11:37:18,810 - #46 a
+INFO  11:37:18,810 - #4 =
+INFO  11:37:18,810 - #47 33
+INFO  11:37:18,810 - #5 ;
+INFO  11:37:18,811 - #26 {
+INFO  11:37:18,812 - #7 void
+INFO  11:37:18,812 - #46 main
+INFO  11:37:18,812 - #24 (
+INFO  11:37:18,812 - #25 )
+INFO  11:37:18,812 - #26 {
+INFO  11:37:18,813 - #27 }
+INFO  11:37:18,813 - #27 }
+INFO  11:37:18,814 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+     a
+      ConstNum(
+       3
+      ) [ConstNum]
+      ConstantList(
+        ListElems(
+         a
+          ConstNum(
+           33
+          ) [ConstNum]
+        ) [ListElems]
+        NoConstantList(
+        ) [NoConstantList]
+      ) [ConstantList]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartVoid(
+         main
+        ) [MethodStartVoid]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      NoVarDecList(
+      ) [NoVarDecList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:37:18,817 - ===================================
+INFO  11:37:18,820 - Parsiranje uspesno zavrseno!
+INFO  11:37:18,821 -  Print count calls = 0
+INFO  11:37:18,821 -  Var decl count = 0

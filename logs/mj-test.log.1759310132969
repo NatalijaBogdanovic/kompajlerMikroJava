@@ -1,0 +1,62 @@
+INFO  11:12:43,629 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  11:12:43,664 - #2 program
+INFO  11:12:43,664 - #46 MJProgram
+INFO  11:12:43,664 - #3 const
+INFO  11:12:43,665 - #46 int
+INFO  11:12:43,665 - #46 a
+INFO  11:12:43,665 - #4 =
+INFO  11:12:43,665 - #47 13
+INFO  11:12:43,665 - #5 ;
+INFO  11:12:43,666 - #26 {
+INFO  11:12:43,666 - #7 void
+INFO  11:12:43,667 - #46 main
+INFO  11:12:43,667 - #24 (
+INFO  11:12:43,667 - #25 )
+INFO  11:12:43,667 - #26 {
+INFO  11:12:43,668 - #27 }
+INFO  11:12:43,669 - #27 }
+INFO  11:12:43,670 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDeclaration(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConstAssign(
+          ListElems(
+           a
+            ConstNum(
+             13
+            ) [ConstNum]
+          ) [ListElems]
+        ) [SingleConstAssign]
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartVoid(
+         main
+        ) [MethodStartVoid]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      NoVarDecList(
+      ) [NoVarDecList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:12:43,670 - ===================================
+INFO  11:12:43,675 - Parsiranje uspesno zavrseno!
+INFO  11:12:43,675 -  Print count calls = 0
+INFO  11:12:43,675 -  Var decl count = 0

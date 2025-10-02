@@ -1,0 +1,266 @@
+INFO  21:23:14,505 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  21:23:14,544 - #2 program
+INFO  21:23:14,544 - #46 MJProgram
+INFO  21:23:14,545 - #3 const
+INFO  21:23:14,545 - #46 int
+INFO  21:23:14,545 - #46 a
+INFO  21:23:14,545 - #4 =
+INFO  21:23:14,545 - #47 3
+INFO  21:23:14,545 - #6 ,
+INFO  21:23:14,546 - #46 b
+INFO  21:23:14,546 - #4 =
+INFO  21:23:14,546 - #47 5
+INFO  21:23:14,546 - #5 ;
+INFO  21:23:14,546 - #46 char
+INFO  21:23:14,547 - #46 x
+INFO  21:23:14,547 - #6 ,
+INFO  21:23:14,547 - #46 y
+INFO  21:23:14,547 - #22 [
+INFO  21:23:14,547 - #23 ]
+INFO  21:23:14,547 - #5 ;
+INFO  21:23:14,547 - #26 {
+INFO  21:23:14,547 - #7 void
+INFO  21:23:14,548 - #46 main
+INFO  21:23:14,548 - #24 (
+INFO  21:23:14,548 - #25 )
+INFO  21:23:14,548 - #46 int
+INFO  21:23:14,549 - #46 s
+INFO  21:23:14,549 - #6 ,
+INFO  21:23:14,549 - #46 h
+INFO  21:23:14,549 - #22 [
+INFO  21:23:14,549 - #23 ]
+INFO  21:23:14,550 - #5 ;
+INFO  21:23:14,550 - #46 int
+INFO  21:23:14,550 - #46 a
+INFO  21:23:14,550 - #5 ;
+INFO  21:23:14,550 - #26 {
+INFO  21:23:14,550 - #27 }
+INFO  21:23:14,550 - #46 int
+INFO  21:23:14,551 - #46 ma
+INFO  21:23:14,551 - #24 (
+INFO  21:23:14,551 - #25 )
+INFO  21:23:14,551 - #46 int
+INFO  21:23:14,551 - #46 s
+INFO  21:23:14,551 - #6 ,
+INFO  21:23:14,551 - #46 h
+INFO  21:23:14,551 - #22 [
+INFO  21:23:14,551 - #23 ]
+INFO  21:23:14,551 - #5 ;
+INFO  21:23:14,551 - #46 int
+INFO  21:23:14,551 - #46 a
+INFO  21:23:14,551 - #5 ;
+INFO  21:23:14,551 - #26 {
+INFO  21:23:14,551 - #27 }
+INFO  21:23:14,551 - #46 char
+INFO  21:23:14,551 - #46 mn
+INFO  21:23:14,551 - #24 (
+INFO  21:23:14,551 - #25 )
+INFO  21:23:14,551 - #46 int
+INFO  21:23:14,552 - #46 s
+INFO  21:23:14,552 - #6 ,
+INFO  21:23:14,552 - #46 h
+INFO  21:23:14,552 - #22 [
+INFO  21:23:14,552 - #23 ]
+INFO  21:23:14,552 - #5 ;
+INFO  21:23:14,552 - #46 int
+INFO  21:23:14,552 - #46 a
+INFO  21:23:14,552 - #5 ;
+INFO  21:23:14,552 - #26 {
+INFO  21:23:14,552 - #27 }
+INFO  21:23:14,552 - #27 }
+INFO  21:23:14,553 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDeclaration(
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstantList(
+            SingleConstAssign(
+              ListElems(
+               a
+                ConstNum(
+                 3
+                ) [ConstNum]
+              ) [ListElems]
+            ) [SingleConstAssign]
+            ListElems(
+             b
+              ConstNum(
+               5
+              ) [ConstNum]
+            ) [ListElems]
+          ) [ConstantList]
+        ) [ConstDecl]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VariableDecl(
+        Type(
+         char
+        ) [Type]
+        RestVariableDecl(
+          SingleVarAssign(
+            VarAssign_var(
+             x
+            ) [VarAssign_var]
+          ) [SingleVarAssign]
+          VarAssign_array(
+           y
+          ) [VarAssign_array]
+        ) [RestVariableDecl]
+      ) [VariableDecl]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        NoMethodDeclarations(
+        ) [NoMethodDeclarations]
+        MethodDecl(
+          MethodSignature(
+            MethodStartVoid(
+             main
+            ) [MethodStartVoid]
+            NoFormParsOptional(
+            ) [NoFormParsOptional]
+          ) [MethodSignature]
+          VariableDeclList(
+            VariableDeclList(
+              NoVarDecList(
+              ) [NoVarDecList]
+              VariableDecl(
+                Type(
+                 int
+                ) [Type]
+                RestVariableDecl(
+                  SingleVarAssign(
+                    VarAssign_var(
+                     s
+                    ) [VarAssign_var]
+                  ) [SingleVarAssign]
+                  VarAssign_array(
+                   h
+                  ) [VarAssign_array]
+                ) [RestVariableDecl]
+              ) [VariableDecl]
+            ) [VariableDeclList]
+            VariableDecl(
+              Type(
+               int
+              ) [Type]
+              SingleVarAssign(
+                VarAssign_var(
+                 a
+                ) [VarAssign_var]
+              ) [SingleVarAssign]
+            ) [VariableDecl]
+          ) [VariableDeclList]
+          NoStatementList(
+          ) [NoStatementList]
+        ) [MethodDecl]
+      ) [MethodDeclarations]
+      MethodDecl(
+        MethodSignature(
+          MethodStartType(
+            Type(
+             int
+            ) [Type]
+           ma
+          ) [MethodStartType]
+          NoFormParsOptional(
+          ) [NoFormParsOptional]
+        ) [MethodSignature]
+        VariableDeclList(
+          VariableDeclList(
+            NoVarDecList(
+            ) [NoVarDecList]
+            VariableDecl(
+              Type(
+               int
+              ) [Type]
+              RestVariableDecl(
+                SingleVarAssign(
+                  VarAssign_var(
+                   s
+                  ) [VarAssign_var]
+                ) [SingleVarAssign]
+                VarAssign_array(
+                 h
+                ) [VarAssign_array]
+              ) [RestVariableDecl]
+            ) [VariableDecl]
+          ) [VariableDeclList]
+          VariableDecl(
+            Type(
+             int
+            ) [Type]
+            SingleVarAssign(
+              VarAssign_var(
+               a
+              ) [VarAssign_var]
+            ) [SingleVarAssign]
+          ) [VariableDecl]
+        ) [VariableDeclList]
+        NoStatementList(
+        ) [NoStatementList]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartType(
+          Type(
+           char
+          ) [Type]
+         mn
+        ) [MethodStartType]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      VariableDeclList(
+        VariableDeclList(
+          NoVarDecList(
+          ) [NoVarDecList]
+          VariableDecl(
+            Type(
+             int
+            ) [Type]
+            RestVariableDecl(
+              SingleVarAssign(
+                VarAssign_var(
+                 s
+                ) [VarAssign_var]
+              ) [SingleVarAssign]
+              VarAssign_array(
+               h
+              ) [VarAssign_array]
+            ) [RestVariableDecl]
+          ) [VariableDecl]
+        ) [VariableDeclList]
+        VariableDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarAssign(
+            VarAssign_var(
+             a
+            ) [VarAssign_var]
+          ) [SingleVarAssign]
+        ) [VariableDecl]
+      ) [VariableDeclList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:23:14,554 - ===================================
+INFO  21:23:14,558 - Obradjuje se funkcija main na liniji 9
+INFO  21:23:14,559 - Parsiranje uspesno zavrseno!
+INFO  21:23:14,559 -  Print count calls = 0
+INFO  21:23:14,559 -  Var decl count = 0

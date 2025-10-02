@@ -1,0 +1,140 @@
+INFO  19:14:39,964 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  19:14:40,013 - #2 program
+INFO  19:14:40,013 - #46 MJProgram
+INFO  19:14:40,013 - #3 const
+INFO  19:14:40,014 - #46 int
+INFO  19:14:40,014 - #46 a
+INFO  19:14:40,015 - #4 =
+INFO  19:14:40,015 - #47 3
+INFO  19:14:40,015 - #6 ,
+INFO  19:14:40,016 - #46 b
+INFO  19:14:40,016 - #4 =
+INFO  19:14:40,016 - #47 5
+INFO  19:14:40,016 - #5 ;
+INFO  19:14:40,016 - #46 char
+INFO  19:14:40,017 - #46 x
+INFO  19:14:40,017 - #6 ,
+INFO  19:14:40,017 - #46 y
+INFO  19:14:40,017 - #22 [
+INFO  19:14:40,017 - #23 ]
+INFO  19:14:40,017 - #5 ;
+INFO  19:14:40,017 - #26 {
+INFO  19:14:40,017 - #46 int
+INFO  19:14:40,020 - #46 main
+INFO  19:14:40,020 - #24 (
+INFO  19:14:40,020 - #25 )
+INFO  19:14:40,021 - #46 int
+INFO  19:14:40,022 - #46 s
+INFO  19:14:40,022 - #6 ,
+INFO  19:14:40,022 - #46 h
+INFO  19:14:40,022 - #22 [
+INFO  19:14:40,022 - #23 ]
+INFO  19:14:40,022 - #5 ;
+INFO  19:14:40,022 - #46 int
+INFO  19:14:40,023 - #46 a
+INFO  19:14:40,023 - #5 ;
+INFO  19:14:40,023 - #26 {
+INFO  19:14:40,023 - #27 }
+INFO  19:14:40,023 - #27 }
+INFO  19:14:40,025 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDeclaration(
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstantList(
+            SingleConstAssign(
+              ListElems(
+               a
+                ConstNum(
+                 3
+                ) [ConstNum]
+              ) [ListElems]
+            ) [SingleConstAssign]
+            ListElems(
+             b
+              ConstNum(
+               5
+              ) [ConstNum]
+            ) [ListElems]
+          ) [ConstantList]
+        ) [ConstDecl]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VariableDecl(
+        Type(
+         char
+        ) [Type]
+        RestVariableDecl(
+          SingleVarAssign(
+            VarAssign_var(
+             x
+            ) [VarAssign_var]
+          ) [SingleVarAssign]
+          VarAssign_array(
+           y
+          ) [VarAssign_array]
+        ) [RestVariableDecl]
+      ) [VariableDecl]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartType(
+          Type(
+           int
+          ) [Type]
+         main
+        ) [MethodStartType]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      VariableDeclList(
+        VariableDeclList(
+          NoVarDecList(
+          ) [NoVarDecList]
+          VariableDecl(
+            Type(
+             int
+            ) [Type]
+            RestVariableDecl(
+              SingleVarAssign(
+                VarAssign_var(
+                 s
+                ) [VarAssign_var]
+              ) [SingleVarAssign]
+              VarAssign_array(
+               h
+              ) [VarAssign_array]
+            ) [RestVariableDecl]
+          ) [VariableDecl]
+        ) [VariableDeclList]
+        VariableDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarAssign(
+            VarAssign_var(
+             a
+            ) [VarAssign_var]
+          ) [SingleVarAssign]
+        ) [VariableDecl]
+      ) [VariableDeclList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:14:40,025 - ===================================
+ERROR 19:14:40,030 - Greska: promenljiva - a - je vec definisana i ponovo redefinisana na liniji 9

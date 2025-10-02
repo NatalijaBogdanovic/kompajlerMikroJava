@@ -1,0 +1,39 @@
+INFO  15:05:15,279 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  15:05:15,300 - #2 program
+INFO  15:05:15,300 - #15 MJProgram
+INFO  15:05:15,300 - #15 int
+INFO  15:05:15,302 - #15 x
+INFO  15:05:15,302 - #5 ;
+INFO  15:05:15,303 - #15 int
+INFO  15:05:15,303 - #15 y
+INFO  15:05:15,303 - #5 ;
+INFO  15:05:15,303 - #3 {
+INFO  15:05:15,303 - #15 int
+INFO  15:05:15,304 - #15 main
+INFO  15:05:15,304 - #6 (
+INFO  15:05:15,304 - #7 )
+INFO  15:05:15,305 - #3 {
+INFO  15:05:15,305 - #9 print
+INFO  15:05:15,305 - #6 (
+INFO  15:05:15,305 - #14 1
+INFO  15:05:15,305 - #7 )
+INFO  15:05:15,306 - #5 ;
+INFO  15:05:15,306 - #15 x
+INFO  15:05:15,306 - #12 =
+INFO  15:05:15,307 - #15 y
+INFO  15:05:15,307 - #11 +
+INFO  15:05:15,307 - #14 5
+INFO  15:05:15,308 - #5 ;
+INFO  15:05:15,308 - #9 print
+INFO  15:05:15,309 - #6 (
+INFO  15:05:15,309 - #14 2
+INFO  15:05:15,309 - #7 )
+INFO  15:05:15,309 - #5 ;
+INFO  15:05:15,309 - #4 }
+INFO  15:05:15,309 - #4 }
+INFO  15:05:15,315 - Deklarisana promenljiva x na liniji 2
+INFO  15:05:15,315 - Deklarisana promenljiva y na liniji 2
+INFO  15:05:15,315 - Obradjuje se funkcija main na liniji 5
+ERROR 15:05:15,316 - Semanticka greska na liniji 5: funcija main nema return iskaz!
+INFO  15:05:15,316 - Print calls = 2
+ERROR 15:05:15,316 - Parsiranje NIJE uspesno zavrseno!

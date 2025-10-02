@@ -1,0 +1,141 @@
+INFO  18:31:10,977 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  18:31:11,031 - #2 program
+INFO  18:31:11,032 - #46 MJProgram
+INFO  18:31:11,032 - #3 const
+INFO  18:31:11,033 - #46 int
+INFO  18:31:11,033 - #46 a
+INFO  18:31:11,033 - #4 =
+INFO  18:31:11,033 - #47 3
+INFO  18:31:11,033 - #6 ,
+INFO  18:31:11,034 - #46 b
+INFO  18:31:11,034 - #4 =
+INFO  18:31:11,034 - #47 5
+INFO  18:31:11,034 - #5 ;
+INFO  18:31:11,034 - #46 char
+INFO  18:31:11,035 - #46 x
+INFO  18:31:11,035 - #6 ,
+INFO  18:31:11,035 - #46 y
+INFO  18:31:11,035 - #22 [
+INFO  18:31:11,035 - #23 ]
+INFO  18:31:11,035 - #5 ;
+INFO  18:31:11,035 - #26 {
+INFO  18:31:11,035 - #7 void
+INFO  18:31:11,038 - #46 main
+INFO  18:31:11,038 - #24 (
+INFO  18:31:11,038 - #25 )
+INFO  18:31:11,038 - #46 int
+INFO  18:31:11,039 - #46 s
+INFO  18:31:11,039 - #6 ,
+INFO  18:31:11,039 - #46 h
+INFO  18:31:11,039 - #22 [
+INFO  18:31:11,039 - #23 ]
+INFO  18:31:11,039 - #5 ;
+INFO  18:31:11,039 - #46 int
+INFO  18:31:11,040 - #46 x
+INFO  18:31:11,040 - #5 ;
+INFO  18:31:11,040 - #26 {
+INFO  18:31:11,040 - #27 }
+INFO  18:31:11,040 - #27 }
+INFO  18:31:11,042 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDeclaration(
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstantList(
+            SingleConstAssign(
+              ListElems(
+               a
+                ConstNum(
+                 3
+                ) [ConstNum]
+              ) [ListElems]
+            ) [SingleConstAssign]
+            ListElems(
+             b
+              ConstNum(
+               5
+              ) [ConstNum]
+            ) [ListElems]
+          ) [ConstantList]
+        ) [ConstDecl]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VariableDecl(
+        Type(
+         char
+        ) [Type]
+        RestVariableDecl(
+          SingleVarAssign(
+            VarAssign_var(
+             x
+            ) [VarAssign_var]
+          ) [SingleVarAssign]
+          VarAssign_array(
+           y
+          ) [VarAssign_array]
+        ) [RestVariableDecl]
+      ) [VariableDecl]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartVoid(
+         main
+        ) [MethodStartVoid]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      VariableDeclList(
+        VariableDeclList(
+          NoVarDecList(
+          ) [NoVarDecList]
+          VariableDecl(
+            Type(
+             int
+            ) [Type]
+            RestVariableDecl(
+              SingleVarAssign(
+                VarAssign_var(
+                 s
+                ) [VarAssign_var]
+              ) [SingleVarAssign]
+              VarAssign_array(
+               h
+              ) [VarAssign_array]
+            ) [RestVariableDecl]
+          ) [VariableDecl]
+        ) [VariableDeclList]
+        VariableDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarAssign(
+            VarAssign_var(
+             x
+            ) [VarAssign_var]
+          ) [SingleVarAssign]
+        ) [VariableDecl]
+      ) [VariableDeclList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:31:11,042 - ===================================
+INFO  18:31:11,047 - Obradjuje se funkcija main na liniji 9
+ERROR 18:31:11,048 - Greska: promenljiva - x - je vec definisana na liniji 9
+ERROR 18:31:11,048 - Parsiranje NIJE uspesno zavrseno.
+INFO  18:31:11,048 -  Print count calls = 0
+INFO  18:31:11,048 -  Var decl count = 0

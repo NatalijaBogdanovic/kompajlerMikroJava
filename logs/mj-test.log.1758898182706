@@ -1,0 +1,183 @@
+INFO  16:45:27,468 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  16:45:27,522 - #2 program
+INFO  16:45:27,522 - #46 MJProgram
+INFO  16:45:27,522 - #46 int
+INFO  16:45:27,524 - #46 x
+INFO  16:45:27,525 - #6 ,
+INFO  16:45:27,525 - #46 y
+INFO  16:45:27,525 - #5 ;
+INFO  16:45:27,526 - #3 const
+INFO  16:45:27,526 - #46 bool
+INFO  16:45:27,526 - #46 a
+INFO  16:45:27,526 - #4 =
+INFO  16:45:27,526 - #48 false
+INFO  16:45:27,526 - #5 ;
+INFO  16:45:27,527 - #3 const
+INFO  16:45:27,528 - #46 char
+INFO  16:45:27,528 - #46 k
+INFO  16:45:27,528 - #4 =
+INFO  16:45:27,528 - #49 k
+INFO  16:45:27,528 - #5 ;
+INFO  16:45:27,528 - #26 {
+INFO  16:45:27,528 - #46 int
+INFO  16:45:27,531 - #46 main
+INFO  16:45:27,531 - #24 (
+INFO  16:45:27,531 - #25 )
+INFO  16:45:27,531 - #26 {
+INFO  16:45:27,533 - #13 print
+INFO  16:45:27,533 - #24 (
+INFO  16:45:27,534 - #47 1
+INFO  16:45:27,534 - #25 )
+INFO  16:45:27,536 - #5 ;
+INFO  16:45:27,536 - #46 x
+INFO  16:45:27,536 - #4 =
+INFO  16:45:27,536 - #46 y
+INFO  16:45:27,536 - #30 +
+INFO  16:45:27,536 - #47 5
+INFO  16:45:27,538 - #5 ;
+INFO  16:45:27,538 - #13 print
+INFO  16:45:27,539 - #24 (
+INFO  16:45:27,539 - #47 2
+INFO  16:45:27,539 - #25 )
+INFO  16:45:27,539 - #5 ;
+INFO  16:45:27,539 - #27 }
+INFO  16:45:27,539 - #27 }
+INFO  16:45:27,542 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDeclarations(
+    ConstDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VariableDecl(
+          Type(
+           int
+          ) [Type]
+          FirstPartVarDeclNoArr(
+           x
+          ) [FirstPartVarDeclNoArr]
+          RestVariableDecl(
+            FirstPartVarDeclNoArr(
+             y
+            ) [FirstPartVarDeclNoArr]
+            NoOtherVarDecl(
+            ) [NoOtherVarDecl]
+          ) [RestVariableDecl]
+        ) [VariableDecl]
+      ) [VarDeclarations]
+      ConstDecl(
+        Type(
+         bool
+        ) [Type]
+       a
+        CinstBool(
+         false
+        ) [CinstBool]
+        NoConstantList(
+        ) [NoConstantList]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+     k
+      ConstChar(
+       k
+      ) [ConstChar]
+      NoConstantList(
+      ) [NoConstantList]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartType(
+          Type(
+           int
+          ) [Type]
+         main
+        ) [MethodStartType]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      NoVarDecList(
+      ) [NoVarDecList]
+      StatementListGlobal(
+        StatementListGlobal(
+          StatementListGlobal(
+            NoStatementList(
+            ) [NoStatementList]
+            PrintStmt(
+              ExprFirstOpt(
+                ExprStartWithoutMinus(
+                  TermFactor(
+                    NumFactor(
+                     1
+                    ) [NumFactor]
+                  ) [TermFactor]
+                ) [ExprStartWithoutMinus]
+                NoExprAddopList(
+                ) [NoExprAddopList]
+              ) [ExprFirstOpt]
+            ) [PrintStmt]
+          ) [StatementListGlobal]
+          DesignatorStmt(
+            DesignAssignExpr(
+              DesignIdent(
+               x
+              ) [DesignIdent]
+              AssignOp(
+              ) [AssignOp]
+              ExprFirstOpt(
+                ExprStartWithoutMinus(
+                  TermFactor(
+                    DesignatorVar(
+                      DesignIdent(
+                       y
+                      ) [DesignIdent]
+                    ) [DesignatorVar]
+                  ) [TermFactor]
+                ) [ExprStartWithoutMinus]
+                ExprAddopListGlobal(
+                  NoExprAddopList(
+                  ) [NoExprAddopList]
+                  Plus(
+                  ) [Plus]
+                  TermFactor(
+                    NumFactor(
+                     5
+                    ) [NumFactor]
+                  ) [TermFactor]
+                ) [ExprAddopListGlobal]
+              ) [ExprFirstOpt]
+            ) [DesignAssignExpr]
+          ) [DesignatorStmt]
+        ) [StatementListGlobal]
+        PrintStmt(
+          ExprFirstOpt(
+            ExprStartWithoutMinus(
+              TermFactor(
+                NumFactor(
+                 2
+                ) [NumFactor]
+              ) [TermFactor]
+            ) [ExprStartWithoutMinus]
+            NoExprAddopList(
+            ) [NoExprAddopList]
+          ) [ExprFirstOpt]
+        ) [PrintStmt]
+      ) [StatementListGlobal]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:45:27,543 - ===================================
+INFO  16:45:27,547 - Parsiranje uspesno zavrseno!
+INFO  16:45:27,549 - Prepoznata naredba print
+INFO  16:45:27,549 - Prepoznata naredba print
+INFO  16:45:27,550 -  Print count calls = 2
+INFO  16:45:27,550 -  Var decl count = 0

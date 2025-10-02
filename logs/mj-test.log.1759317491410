@@ -1,0 +1,75 @@
+INFO  13:17:29,490 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  13:17:29,524 - #2 program
+INFO  13:17:29,524 - #46 MJProgram
+INFO  13:17:29,525 - #3 const
+INFO  13:17:29,525 - #46 int
+INFO  13:17:29,525 - #46 ai
+INFO  13:17:29,526 - #4 =
+INFO  13:17:29,526 - #49 a
+INFO  13:17:29,526 - #6 ,
+INFO  13:17:29,526 - #46 b
+INFO  13:17:29,526 - #4 =
+INFO  13:17:29,527 - #47 2
+INFO  13:17:29,527 - #5 ;
+INFO  13:17:29,527 - #26 {
+INFO  13:17:29,527 - #7 void
+INFO  13:17:29,528 - #46 main
+INFO  13:17:29,528 - #24 (
+INFO  13:17:29,528 - #25 )
+INFO  13:17:29,528 - #26 {
+INFO  13:17:29,529 - #27 }
+INFO  13:17:29,530 - #27 }
+INFO  13:17:29,531 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDeclaration(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstantList(
+          SingleConstAssign(
+            ListElems(
+             ai
+              ConstChar(
+               a
+              ) [ConstChar]
+            ) [ListElems]
+          ) [SingleConstAssign]
+          ListElems(
+           b
+            ConstNum(
+             2
+            ) [ConstNum]
+          ) [ListElems]
+        ) [ConstantList]
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartVoid(
+         main
+        ) [MethodStartVoid]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      NoVarDecList(
+      ) [NoVarDecList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:17:29,531 - ===================================
+ERROR 13:17:29,535 - Greska: pokusana dodela vrednosti nekompatibilnog tipa datoj promenljivi: ai na liniji 3
+ERROR 13:17:29,536 - Parsiranje NIJE uspesno zavrseno.
+INFO  13:17:29,536 -  Print count calls = 0
+INFO  13:17:29,536 -  Var decl count = 0

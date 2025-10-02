@@ -1,0 +1,63 @@
+INFO  11:11:11,378 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  11:11:11,412 - #2 program
+INFO  11:11:11,412 - #46 MJProgram
+INFO  11:11:11,412 - #3 const
+INFO  11:11:11,413 - #46 byte
+INFO  11:11:11,413 - #46 a
+INFO  11:11:11,413 - #4 =
+INFO  11:11:11,413 - #47 3
+INFO  11:11:11,413 - #5 ;
+INFO  11:11:11,414 - #26 {
+INFO  11:11:11,415 - #7 void
+INFO  11:11:11,416 - #46 main
+INFO  11:11:11,416 - #24 (
+INFO  11:11:11,416 - #25 )
+INFO  11:11:11,416 - #26 {
+INFO  11:11:11,417 - #27 }
+INFO  11:11:11,418 - #27 }
+INFO  11:11:11,419 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDeclaration(
+      ConstDecl(
+        Type(
+         byte
+        ) [Type]
+        SingleConstAssign(
+          ListElems(
+           a
+            ConstNum(
+             3
+            ) [ConstNum]
+          ) [ListElems]
+        ) [SingleConstAssign]
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartVoid(
+         main
+        ) [MethodStartVoid]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      NoVarDecList(
+      ) [NoVarDecList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:11:11,421 - ===================================
+ERROR 11:11:11,425 - U tabeli simbola ne postoji ovaj tip: byte definisan  na liniji 3
+ERROR 11:11:11,425 - Parsiranje NIJE uspesno zavrseno.
+INFO  11:11:11,426 -  Print count calls = 0
+INFO  11:11:11,426 -  Var decl count = 0

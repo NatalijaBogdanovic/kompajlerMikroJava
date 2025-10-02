@@ -1,0 +1,44 @@
+INFO  21:45:48,724 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  21:45:48,762 - #2 program
+INFO  21:45:48,762 - #46 MJProgram
+INFO  21:45:48,762 - #46 int
+INFO  21:45:48,763 - #46 x
+INFO  21:45:48,763 - #5 ;
+INFO  21:45:48,764 - #46 int
+INFO  21:45:48,764 - #46 y
+INFO  21:45:48,764 - #5 ;
+INFO  21:45:48,764 - #46 int
+INFO  21:45:48,764 - #46 a
+INFO  21:45:48,764 - #6 ,
+INFO  21:45:48,764 - #46 b
+INFO  21:45:48,764 - #38 *
+ERROR 21:45:48,764 - 
+Sintaksna greska na liniji 3
+INFO  21:45:48,764 - #6 ,
+INFO  21:45:48,765 - #46 c
+INFO  21:45:48,765 - #5 ;
+INFO  21:45:48,765 - #26 {
+INFO  21:45:48,765 - #46 int
+INFO  21:45:48,765 - #46 main
+INFO  21:45:48,768 - #24 (
+INFO  21:45:48,768 - #25 )
+INFO  21:45:48,768 - #26 {
+INFO  21:45:48,768 - #13 print
+INFO  21:45:48,768 - #24 (
+INFO  21:45:48,768 - #47 1
+INFO  21:45:48,768 - #25 )
+INFO  21:45:48,768 - #5 ;
+INFO  21:45:48,768 - #46 x
+INFO  21:45:48,768 - #4 =
+INFO  21:45:48,768 - #46 y
+INFO  21:45:48,768 - #30 +
+INFO  21:45:48,768 - #47 5
+INFO  21:45:48,768 - #5 ;
+INFO  21:45:48,768 - #13 print
+INFO  21:45:48,768 - #24 (
+INFO  21:45:48,768 - #47 2
+INFO  21:45:48,768 - #25 )
+INFO  21:45:48,768 - #5 ;
+INFO  21:45:48,768 - #27 }
+INFO  21:45:48,768 - #27 }
+ERROR 21:45:48,768 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 13

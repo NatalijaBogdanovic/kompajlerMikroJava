@@ -1,0 +1,86 @@
+INFO  11:24:23,610 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  11:24:23,644 - #2 program
+INFO  11:24:23,644 - #46 MJProgram
+INFO  11:24:23,644 - #3 const
+INFO  11:24:23,645 - #46 int
+INFO  11:24:23,645 - #46 a
+INFO  11:24:23,645 - #4 =
+INFO  11:24:23,645 - #47 13
+INFO  11:24:23,645 - #5 ;
+INFO  11:24:23,646 - #3 const
+INFO  11:24:23,646 - #46 int
+INFO  11:24:23,646 - #46 a
+INFO  11:24:23,646 - #4 =
+INFO  11:24:23,646 - #47 2
+INFO  11:24:23,646 - #5 ;
+INFO  11:24:23,646 - #26 {
+INFO  11:24:23,646 - #7 void
+INFO  11:24:23,646 - #46 main
+INFO  11:24:23,646 - #24 (
+INFO  11:24:23,646 - #25 )
+INFO  11:24:23,647 - #26 {
+INFO  11:24:23,647 - #27 }
+INFO  11:24:23,650 - #27 }
+INFO  11:24:23,651 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDeclaration(
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstAssign(
+            ListElems(
+             a
+              ConstNum(
+               13
+              ) [ConstNum]
+            ) [ListElems]
+          ) [SingleConstAssign]
+        ) [ConstDecl]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    ConstDeclaration(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConstAssign(
+          ListElems(
+           a
+            ConstNum(
+             2
+            ) [ConstNum]
+          ) [ListElems]
+        ) [SingleConstAssign]
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartVoid(
+         main
+        ) [MethodStartVoid]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      NoVarDecList(
+      ) [NoVarDecList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:24:23,651 - ===================================
+ERROR 11:24:23,654 - Greska: konstanta - a - je vec definisana na liniji 4
+ERROR 11:24:23,655 - Parsiranje NIJE uspesno zavrseno.
+INFO  11:24:23,655 -  Print count calls = 0
+INFO  11:24:23,655 -  Var decl count = 0

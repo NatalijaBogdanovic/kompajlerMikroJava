@@ -1,0 +1,71 @@
+INFO  12:13:02,630 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  12:13:02,663 - #2 program
+INFO  12:13:02,663 - #46 MJProgram
+INFO  12:13:02,663 - #3 const
+INFO  12:13:02,664 - #46 int
+INFO  12:13:02,664 - #46 a
+INFO  12:13:02,664 - #4 =
+INFO  12:13:02,664 - #47 3
+INFO  12:13:02,664 - #6 ,
+INFO  12:13:02,664 - #46 a
+INFO  12:13:02,664 - #4 =
+INFO  12:13:02,664 - #47 33
+INFO  12:13:02,664 - #5 ;
+INFO  12:13:02,665 - #26 {
+INFO  12:13:02,666 - #7 void
+INFO  12:13:02,666 - #46 main
+INFO  12:13:02,666 - #24 (
+INFO  12:13:02,666 - #25 )
+INFO  12:13:02,667 - #26 {
+INFO  12:13:02,667 - #27 }
+INFO  12:13:02,668 - #27 }
+INFO  12:13:02,669 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+     a
+      ConstNum(
+       3
+      ) [ConstNum]
+      ConstantList(
+        ListElems(
+         a
+          ConstNum(
+           33
+          ) [ConstNum]
+        ) [ListElems]
+        NoConstantList(
+        ) [NoConstantList]
+      ) [ConstantList]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartVoid(
+         main
+        ) [MethodStartVoid]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      NoVarDecList(
+      ) [NoVarDecList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:13:02,671 - ===================================
+ERROR 12:13:02,675 - Greska: konstanta - a - je vec definisana na liniji 3
+ERROR 12:13:02,675 - Parsiranje NIJE uspesno zavrseno.
+INFO  12:13:02,675 -  Print count calls = 0
+INFO  12:13:02,675 -  Var decl count = 0

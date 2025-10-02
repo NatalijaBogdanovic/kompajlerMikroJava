@@ -1,0 +1,59 @@
+INFO  19:25:51,035 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  19:25:51,088 - #2 program
+INFO  19:25:51,088 - #46 MJProgram
+INFO  19:25:51,088 - #3 const
+INFO  19:25:51,090 - #46 byte
+INFO  19:25:51,090 - #46 a
+INFO  19:25:51,090 - #4 =
+INFO  19:25:51,091 - #47 3
+INFO  19:25:51,091 - #5 ;
+INFO  19:25:51,092 - #26 {
+INFO  19:25:51,092 - #7 void
+INFO  19:25:51,093 - #46 main
+INFO  19:25:51,093 - #24 (
+INFO  19:25:51,093 - #25 )
+INFO  19:25:51,094 - #26 {
+INFO  19:25:51,095 - #27 }
+INFO  19:25:51,095 - #27 }
+INFO  19:25:51,097 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDecl(
+      Type(
+       byte
+      ) [Type]
+     a
+      ConstNum(
+       3
+      ) [ConstNum]
+      NoConstantList(
+      ) [NoConstantList]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartVoid(
+         main
+        ) [MethodStartVoid]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      NoVarDecList(
+      ) [NoVarDecList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:25:51,097 - ===================================
+ERROR 19:25:51,102 - U tabeli simbola ne postoji ovaj tip: byte na liniji 3
+ERROR 19:25:51,103 - Parsiranje NIJE uspesno zavrseno.
+INFO  19:25:51,103 -  Print count calls = 0
+INFO  19:25:51,104 -  Var decl count = 0

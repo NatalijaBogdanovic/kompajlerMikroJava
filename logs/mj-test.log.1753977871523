@@ -1,0 +1,36 @@
+INFO  18:03:16,977 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  18:03:17,008 - #2 program
+INFO  18:03:17,008 - #15 MJProgram
+INFO  18:03:17,008 - #15 int
+INFO  18:03:17,010 - #15 x
+INFO  18:03:17,011 - #5 ;
+INFO  18:03:17,011 - #15 int
+INFO  18:03:17,013 - #15 y
+INFO  18:03:17,013 - #5 ;
+INFO  18:03:17,013 - #3 {
+INFO  18:03:17,013 - #15 int
+INFO  18:03:17,014 - #15 main
+INFO  18:03:17,014 - #6 (
+INFO  18:03:17,015 - #7 )
+INFO  18:03:17,015 - #3 {
+INFO  18:03:17,015 - #9 print
+INFO  18:03:17,016 - #6 (
+INFO  18:03:17,016 - #14 1
+INFO  18:03:17,016 - #7 )
+INFO  18:03:17,017 - #5 ;
+INFO  18:03:17,017 - #15 x
+INFO  18:03:17,017 - #12 =
+INFO  18:03:17,020 - #15 y
+INFO  18:03:17,020 - #11 +
+INFO  18:03:17,020 - #14 5
+INFO  18:03:17,021 - #5 ;
+INFO  18:03:17,021 - #9 print
+INFO  18:03:17,021 - #6 (
+INFO  18:03:17,021 - #15 Ovo
+INFO  18:03:17,021 - #15 je
+ERROR 18:03:17,021 - 
+Sintaksna greska na liniji 10
+ERROR 18:03:17,021 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10
+ERROR 18:03:17,028 - Greska na liniji 10 : ime Ovo nije deklarisano! 
+INFO  18:03:17,028 - Print calls = 0
+ERROR 18:03:17,029 - Parsiranje NIJE uspesno zavrseno!

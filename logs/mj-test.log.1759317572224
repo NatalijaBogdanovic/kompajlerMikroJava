@@ -1,0 +1,75 @@
+INFO  13:19:08,567 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  13:19:08,606 - #2 program
+INFO  13:19:08,607 - #46 MJProgram
+INFO  13:19:08,607 - #3 const
+INFO  13:19:08,608 - #46 bool
+INFO  13:19:08,608 - #46 a
+INFO  13:19:08,608 - #4 =
+INFO  13:19:08,608 - #47 6
+INFO  13:19:08,608 - #6 ,
+INFO  13:19:08,609 - #46 b
+INFO  13:19:08,609 - #4 =
+INFO  13:19:08,609 - #48 false
+INFO  13:19:08,609 - #5 ;
+INFO  13:19:08,609 - #26 {
+INFO  13:19:08,610 - #7 void
+INFO  13:19:08,610 - #46 main
+INFO  13:19:08,610 - #24 (
+INFO  13:19:08,611 - #25 )
+INFO  13:19:08,611 - #26 {
+INFO  13:19:08,612 - #27 }
+INFO  13:19:08,612 - #27 }
+INFO  13:19:08,614 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDeclaration(
+      ConstDecl(
+        Type(
+         bool
+        ) [Type]
+        ConstantList(
+          SingleConstAssign(
+            ListElems(
+             a
+              ConstNum(
+               6
+              ) [ConstNum]
+            ) [ListElems]
+          ) [SingleConstAssign]
+          ListElems(
+           b
+            ConstBool(
+             false
+            ) [ConstBool]
+          ) [ListElems]
+        ) [ConstantList]
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartVoid(
+         main
+        ) [MethodStartVoid]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      NoVarDecList(
+      ) [NoVarDecList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:19:08,616 - ===================================
+ERROR 13:19:08,620 - Greska: pokusana dodela vrednosti nekompatibilnog tipa datoj promenljivi: a na liniji 3
+ERROR 13:19:08,620 - Parsiranje NIJE uspesno zavrseno.
+INFO  13:19:08,621 -  Print count calls = 0
+INFO  13:19:08,621 -  Var decl count = 0
