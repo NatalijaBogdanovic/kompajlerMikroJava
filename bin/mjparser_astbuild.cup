@@ -79,7 +79,6 @@ nonterminal ConstDecl ConstDecl;
 nonterminal FirstConst FirstConst;
 nonterminal ConstList ConstList;
 nonterminal ListElems ListElems;
-nonterminal Type Type;
 nonterminal VarAssign VarAssign;
 nonterminal VarAssignList VarAssignList;
 
@@ -95,13 +94,9 @@ nonterminal ExprOption ExprOption;
 nonterminal StatementListVar StatementListVar;
 nonterminal Condition Condition;
 nonterminal CondTermORList CondTermORList;
-nonterminal Expr Expr;
-nonterminal ExprStartOpt ExprStartOpt;
 nonterminal AddOp AddOp;
-nonterminal ExprAddopList ExprAddopList;
 nonterminal DesignatorStatement DesignatorStatement;
 nonterminal ActParsOpt ActParsOpt;
-nonterminal Designator Designator;
 nonterminal AssignOp AssignOp;
 nonterminal SetOp SetOp;
 nonterminal ActPars ActPars;
@@ -110,14 +105,13 @@ nonterminal CondTerm CondTerm;
 nonterminal CondFactANDList CondFactANDList;
 nonterminal CondFact CondFact;
 nonterminal RelopExprOption RelopExprOption;
-nonterminal Term Term;
-nonterminal Factor Factor;
 nonterminal RelOp RelOp;
 nonterminal MulOp MulOp;
 nonterminal Label Label;
 nonterminal ThreeDesignList ThreeDesignList;
 nonterminal Decl Decl;
-nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodStart, MethodSignature, MethodDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodStart, MethodSignature, MethodDecl, Designator, DesignArr;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Factor, Term, Expr, ExprAddopList, ExprStartOpt, Type;
 
 precedence left ELSE;
 
@@ -269,9 +263,11 @@ ActParsOpt ::= (ActualParameterList) ActPars:A1 {: RESULT=new ActualParameterLis
 			 ;	
 			   
 Designator ::= (DesignIdent) IDENT:varName {: RESULT=new DesignIdent(varName); RESULT.setLine(varNameleft); :}
-            | (DesignArr) Designator:D1 LEFT_SQUARE_PARENTHESES Expr:expr RIGHT_SQUARE_PARENTHESES {: RESULT=new DesignArr(D1, expr); RESULT.setLine(D1left); :}
+            | (DesignArrElem) DesignArr:D1 LEFT_SQUARE_PARENTHESES Expr:expr RIGHT_SQUARE_PARENTHESES {: RESULT=new DesignArrElem(D1, expr); RESULT.setLine(D1left); :}
             | (DesignClass) Designator:D1 DOT IDENT:classVar {: RESULT=new DesignClass(D1, classVar); RESULT.setLine(D1left); :}
             ;
+            
+DesignArr ::= (DesignArr) Designator:D1 {: RESULT=new DesignArr(D1); RESULT.setLine(D1left); :};
             
 AssignOp ::= (AssignOp) EQUALS {: RESULT=new AssignOp(); :} ;
 

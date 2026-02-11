@@ -1,0 +1,255 @@
+INFO  19:09:23,398 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  19:09:23,433 - #2 program
+INFO  19:09:23,433 - #46 MJProgram
+INFO  19:09:23,433 - #3 const
+INFO  19:09:23,434 - #46 int
+INFO  19:09:23,434 - #46 a
+INFO  19:09:23,435 - #4 =
+INFO  19:09:23,435 - #47 2
+INFO  19:09:23,435 - #5 ;
+INFO  19:09:23,435 - #46 int
+INFO  19:09:23,436 - #46 x
+INFO  19:09:23,436 - #6 ,
+INFO  19:09:23,436 - #46 y
+INFO  19:09:23,436 - #22 [
+INFO  19:09:23,436 - #23 ]
+INFO  19:09:23,436 - #5 ;
+INFO  19:09:23,436 - #26 {
+INFO  19:09:23,437 - #7 void
+INFO  19:09:23,437 - #46 main
+INFO  19:09:23,437 - #24 (
+INFO  19:09:23,437 - #25 )
+INFO  19:09:23,438 - #46 int
+INFO  19:09:23,441 - #46 b
+INFO  19:09:23,441 - #6 ,
+INFO  19:09:23,441 - #46 e
+INFO  19:09:23,441 - #22 [
+INFO  19:09:23,441 - #23 ]
+INFO  19:09:23,441 - #5 ;
+INFO  19:09:23,441 - #46 char
+INFO  19:09:23,441 - #46 c
+INFO  19:09:23,441 - #22 [
+INFO  19:09:23,441 - #23 ]
+INFO  19:09:23,441 - #5 ;
+INFO  19:09:23,441 - #26 {
+INFO  19:09:23,442 - #46 e
+INFO  19:09:23,442 - #4 =
+INFO  19:09:23,442 - #41 new
+INFO  19:09:23,442 - #46 int
+INFO  19:09:23,442 - #22 [
+INFO  19:09:23,442 - #47 2
+INFO  19:09:23,442 - #23 ]
+INFO  19:09:23,443 - #5 ;
+INFO  19:09:23,443 - #46 e
+INFO  19:09:23,443 - #22 [
+INFO  19:09:23,444 - #47 0
+INFO  19:09:23,444 - #23 ]
+INFO  19:09:23,444 - #20 --
+INFO  19:09:23,444 - #5 ;
+INFO  19:09:23,444 - #13 print
+INFO  19:09:23,444 - #24 (
+INFO  19:09:23,444 - #46 e
+INFO  19:09:23,444 - #22 [
+INFO  19:09:23,444 - #47 0
+INFO  19:09:23,444 - #23 ]
+INFO  19:09:23,444 - #25 )
+INFO  19:09:23,444 - #5 ;
+INFO  19:09:23,445 - #27 }
+INFO  19:09:23,445 - #27 }
+INFO  19:09:23,447 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDeclaration(
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstAssign(
+            ListElems(
+             a
+              ConstNum(
+               2
+              ) [ConstNum]
+            ) [ListElems]
+          ) [SingleConstAssign]
+        ) [ConstDecl]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VariableDecl(
+        Type(
+         int
+        ) [Type]
+        RestVariableDecl(
+          SingleVarAssign(
+            VarAssign_var(
+             x
+            ) [VarAssign_var]
+          ) [SingleVarAssign]
+          VarAssign_array(
+           y
+          ) [VarAssign_array]
+        ) [RestVariableDecl]
+      ) [VariableDecl]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartVoid(
+         main
+        ) [MethodStartVoid]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      VariableDeclList(
+        VariableDeclList(
+          NoVarDecList(
+          ) [NoVarDecList]
+          VariableDecl(
+            Type(
+             int
+            ) [Type]
+            RestVariableDecl(
+              SingleVarAssign(
+                VarAssign_var(
+                 b
+                ) [VarAssign_var]
+              ) [SingleVarAssign]
+              VarAssign_array(
+               e
+              ) [VarAssign_array]
+            ) [RestVariableDecl]
+          ) [VariableDecl]
+        ) [VariableDeclList]
+        VariableDecl(
+          Type(
+           char
+          ) [Type]
+          SingleVarAssign(
+            VarAssign_array(
+             c
+            ) [VarAssign_array]
+          ) [SingleVarAssign]
+        ) [VariableDecl]
+      ) [VariableDeclList]
+      StatementListGlobal(
+        StatementListGlobal(
+          StatementListGlobal(
+            NoStatementList(
+            ) [NoStatementList]
+            DesignatorStmt(
+              DesignAssignExpr(
+                DesignIdent(
+                 e
+                ) [DesignIdent]
+                AssignOp(
+                ) [AssignOp]
+                ExprFirstOpt(
+                  ExprStartWithoutMinus(
+                    TermFactor(
+                      ArrayFactor(
+                        Type(
+                         int
+                        ) [Type]
+                        ExprFirstOpt(
+                          ExprStartWithoutMinus(
+                            TermFactor(
+                              NumFactor(
+                               2
+                              ) [NumFactor]
+                            ) [TermFactor]
+                          ) [ExprStartWithoutMinus]
+                          NoExprAddopList(
+                          ) [NoExprAddopList]
+                        ) [ExprFirstOpt]
+                      ) [ArrayFactor]
+                    ) [TermFactor]
+                  ) [ExprStartWithoutMinus]
+                  NoExprAddopList(
+                  ) [NoExprAddopList]
+                ) [ExprFirstOpt]
+              ) [DesignAssignExpr]
+            ) [DesignatorStmt]
+          ) [StatementListGlobal]
+          DesignatorStmt(
+            DesignDecrement(
+              DesignArrElem(
+                DesignArr(
+                  DesignIdent(
+                   e
+                  ) [DesignIdent]
+                ) [DesignArr]
+                ExprFirstOpt(
+                  ExprStartWithoutMinus(
+                    TermFactor(
+                      NumFactor(
+                       0
+                      ) [NumFactor]
+                    ) [TermFactor]
+                  ) [ExprStartWithoutMinus]
+                  NoExprAddopList(
+                  ) [NoExprAddopList]
+                ) [ExprFirstOpt]
+              ) [DesignArrElem]
+            ) [DesignDecrement]
+          ) [DesignatorStmt]
+        ) [StatementListGlobal]
+        PrintStmt(
+          ExprFirstOpt(
+            ExprStartWithoutMinus(
+              TermFactor(
+                DesignatorVar(
+                  DesignArrElem(
+                    DesignArr(
+                      DesignIdent(
+                       e
+                      ) [DesignIdent]
+                    ) [DesignArr]
+                    ExprFirstOpt(
+                      ExprStartWithoutMinus(
+                        TermFactor(
+                          NumFactor(
+                           0
+                          ) [NumFactor]
+                        ) [TermFactor]
+                      ) [ExprStartWithoutMinus]
+                      NoExprAddopList(
+                      ) [NoExprAddopList]
+                    ) [ExprFirstOpt]
+                  ) [DesignArrElem]
+                ) [DesignatorVar]
+              ) [TermFactor]
+            ) [ExprStartWithoutMinus]
+            NoExprAddopList(
+            ) [NoExprAddopList]
+          ) [ExprFirstOpt]
+        ) [PrintStmt]
+      ) [StatementListGlobal]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:09:23,447 - ===================================
+INFO  19:09:23,452 - Definisana je konstanta- a -tipa int : Con a: int, 2, 0 na liniji 3
+INFO  19:09:23,452 - Definisana je globalna promenljiva- x -tipa int : Var x: int, 0, 0 na liniji 4
+INFO  19:09:23,452 - Definisana je globalna nizovska promenljiva- y -tipa int : Var y: niz tipa int, 1, 0 na liniji 4
+INFO  19:09:23,452 - Obradjuje se funkcija main: Meth main: void, 0, 0 na liniji 6
+INFO  19:09:23,452 - Definisana je lokalna promenljiva- b -tipa int : Var b: int, 0, 1 na liniji 6
+INFO  19:09:23,452 - Definisana je lokalna nizovska promenljiva- e -tipa int : Var e: niz tipa int, 1, 1 na liniji 6
+INFO  19:09:23,452 - Definisana je lokalna nizovska promenljiva- c -tipa char : Var c: niz tipa char, 2, 1 na liniji 6
+INFO  19:09:23,452 - Uspesno kreiran niz na liniji 19
+INFO  19:09:23,452 - Pristup elementu niza 'e' na liniji 20
+INFO  19:09:23,452 - Pristup elementu niza 'e' na liniji 21
+INFO  19:09:23,453 - Uspesno obradjena 'print' naredba na liniji 21
+INFO  19:09:23,455 - Generisanje uspesno zavrseno!
+INFO  19:09:23,455 - Prepoznata naredba print
+INFO  19:09:23,455 -  Print count calls = 1
+INFO  19:09:23,455 -  Read count calls = 0
+INFO  19:09:23,455 -  Var decl count = 0

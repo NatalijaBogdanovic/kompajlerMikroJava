@@ -72,13 +72,14 @@ terminal Integer NUM_CONST;
 terminal Boolean BOOL_CONST;
 terminal Character CHAR_CONST;
 
-nonterminal DeclList, MethodDeclList, VarDecl, ConstDecl, FirstConst, ConstList, ListElems, Type, VarAssign, VarAssignList;
+nonterminal DeclList, MethodDeclList, VarDecl, ConstDecl, FirstConst, ConstList, ListElems, VarAssign, VarAssignList;
 
 nonterminal FormParsOptional, VarDecList, StatementList, FormPars, Param, FormParsList, Statement, ElseOption, ExprOption;
-nonterminal StatementListVar, Condition, CondTermORList, Expr, ExprStartOpt, AddOp, ExprAddopList, DesignatorStatement, ActParsOpt, Designator, AssignOp, SetOp;
-nonterminal ActPars, ExprList, CondTerm, CondFactANDList, CondFact, RelopExprOption, Term, Factor, RelOp, MulOp, Label;
+nonterminal StatementListVar, Condition, CondTermORList, AddOp, DesignatorStatement, ActParsOpt, AssignOp, SetOp;
+nonterminal ActPars, ExprList, CondTerm, CondFactANDList, CondFact, RelopExprOption, RelOp, MulOp, Label;
 nonterminal ThreeDesignList, Decl;
-nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodStart, MethodSignature, MethodDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodStart, MethodSignature, MethodDecl, Designator, DesignArr;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Factor, Term, Expr, ExprAddopList, ExprStartOpt, Type;
 
 precedence left ELSE;
 
@@ -230,9 +231,11 @@ ActParsOpt ::= (ActualParameterList) ActPars
 			 ;	
 			   
 Designator ::= (DesignIdent) IDENT:varName
-            | (DesignArr) Designator LEFT_SQUARE_PARENTHESES Expr:expr RIGHT_SQUARE_PARENTHESES
+            | (DesignArrElem) DesignArr LEFT_SQUARE_PARENTHESES Expr:expr RIGHT_SQUARE_PARENTHESES
             | (DesignClass) Designator DOT IDENT:classVar
             ;
+            
+DesignArr ::= (DesignArr) Designator;
             
 AssignOp ::= (AssignOp) EQUALS ;
 

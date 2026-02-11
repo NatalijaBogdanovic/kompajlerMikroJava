@@ -1,0 +1,2169 @@
+INFO  13:07:34,350 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  13:07:34,424 - #2 program
+INFO  13:07:34,424 - #46 test301
+INFO  13:07:34,425 - #3 const
+INFO  13:07:34,426 - #46 int
+INFO  13:07:34,426 - #46 nula
+INFO  13:07:34,427 - #4 =
+INFO  13:07:34,427 - #47 0
+INFO  13:07:34,427 - #5 ;
+INFO  13:07:34,428 - #3 const
+INFO  13:07:34,429 - #46 int
+INFO  13:07:34,429 - #46 jedan
+INFO  13:07:34,429 - #4 =
+INFO  13:07:34,429 - #47 1
+INFO  13:07:34,429 - #5 ;
+INFO  13:07:34,429 - #3 const
+INFO  13:07:34,430 - #46 int
+INFO  13:07:34,430 - #46 pet
+INFO  13:07:34,430 - #4 =
+INFO  13:07:34,430 - #47 5
+INFO  13:07:34,430 - #5 ;
+INFO  13:07:34,430 - #46 int
+INFO  13:07:34,432 - #46 niz
+INFO  13:07:34,433 - #22 [
+INFO  13:07:34,433 - #23 ]
+INFO  13:07:34,433 - #5 ;
+INFO  13:07:34,433 - #46 char
+INFO  13:07:34,433 - #46 nizch
+INFO  13:07:34,433 - #22 [
+INFO  13:07:34,433 - #23 ]
+INFO  13:07:34,433 - #5 ;
+INFO  13:07:34,433 - #46 int
+INFO  13:07:34,434 - #46 a
+INFO  13:07:34,434 - #5 ;
+INFO  13:07:34,434 - #46 set
+INFO  13:07:34,434 - #46 s1
+INFO  13:07:34,434 - #6 ,
+INFO  13:07:34,434 - #46 s2
+INFO  13:07:34,434 - #6 ,
+INFO  13:07:34,435 - #46 s3
+INFO  13:07:34,435 - #5 ;
+INFO  13:07:34,435 - #26 {
+INFO  13:07:34,435 - #7 void
+INFO  13:07:34,437 - #46 main
+INFO  13:07:34,437 - #24 (
+INFO  13:07:34,437 - #25 )
+INFO  13:07:34,438 - #46 int
+INFO  13:07:34,440 - #46 bodovi
+INFO  13:07:34,440 - #5 ;
+INFO  13:07:34,440 - #46 int
+INFO  13:07:34,440 - #46 temp
+INFO  13:07:34,440 - #5 ;
+INFO  13:07:34,441 - #26 {
+INFO  13:07:34,441 - #46 bodovi
+INFO  13:07:34,442 - #4 =
+INFO  13:07:34,442 - #47 0
+INFO  13:07:34,443 - #5 ;
+INFO  13:07:34,444 - #46 bodovi
+INFO  13:07:34,444 - #19 ++
+INFO  13:07:34,445 - #5 ;
+INFO  13:07:34,445 - #46 bodovi
+INFO  13:07:34,445 - #4 =
+INFO  13:07:34,445 - #46 bodovi
+INFO  13:07:34,445 - #30 +
+INFO  13:07:34,445 - #46 jedan
+INFO  13:07:34,447 - #5 ;
+INFO  13:07:34,447 - #46 bodovi
+INFO  13:07:34,447 - #4 =
+INFO  13:07:34,447 - #46 bodovi
+INFO  13:07:34,447 - #38 *
+INFO  13:07:34,447 - #46 pet
+INFO  13:07:34,448 - #5 ;
+INFO  13:07:34,448 - #46 bodovi
+INFO  13:07:34,449 - #20 --
+INFO  13:07:34,449 - #5 ;
+INFO  13:07:34,449 - #13 print
+INFO  13:07:34,449 - #24 (
+INFO  13:07:34,449 - #46 bodovi
+INFO  13:07:34,449 - #25 )
+INFO  13:07:34,449 - #5 ;
+INFO  13:07:34,449 - #13 print
+INFO  13:07:34,449 - #24 (
+INFO  13:07:34,449 - #46 eol
+INFO  13:07:34,450 - #25 )
+INFO  13:07:34,450 - #5 ;
+INFO  13:07:34,450 - #46 niz
+INFO  13:07:34,450 - #4 =
+INFO  13:07:34,450 - #41 new
+INFO  13:07:34,450 - #46 int
+INFO  13:07:34,450 - #22 [
+INFO  13:07:34,450 - #47 3
+INFO  13:07:34,451 - #23 ]
+INFO  13:07:34,451 - #5 ;
+INFO  13:07:34,451 - #46 niz
+INFO  13:07:34,451 - #22 [
+INFO  13:07:34,452 - #46 nula
+INFO  13:07:34,452 - #23 ]
+INFO  13:07:34,452 - #4 =
+INFO  13:07:34,453 - #47 2
+INFO  13:07:34,453 - #5 ;
+INFO  13:07:34,453 - #46 niz
+INFO  13:07:34,453 - #22 [
+INFO  13:07:34,453 - #46 jedan
+INFO  13:07:34,453 - #23 ]
+INFO  13:07:34,453 - #4 =
+INFO  13:07:34,453 - #47 3
+INFO  13:07:34,453 - #5 ;
+INFO  13:07:34,453 - #46 niz
+INFO  13:07:34,454 - #22 [
+INFO  13:07:34,454 - #46 niz
+INFO  13:07:34,454 - #22 [
+INFO  13:07:34,454 - #46 nula
+INFO  13:07:34,454 - #23 ]
+INFO  13:07:34,454 - #23 ]
+INFO  13:07:34,454 - #4 =
+INFO  13:07:34,454 - #46 niz
+INFO  13:07:34,454 - #22 [
+INFO  13:07:34,454 - #47 1
+INFO  13:07:34,454 - #23 ]
+INFO  13:07:34,454 - #38 *
+INFO  13:07:34,455 - #47 4
+INFO  13:07:34,455 - #5 ;
+INFO  13:07:34,455 - #46 bodovi
+INFO  13:07:34,455 - #4 =
+INFO  13:07:34,455 - #46 niz
+INFO  13:07:34,455 - #22 [
+INFO  13:07:34,455 - #47 2
+INFO  13:07:34,455 - #23 ]
+INFO  13:07:34,455 - #39 /
+INFO  13:07:34,455 - #46 niz
+INFO  13:07:34,456 - #22 [
+INFO  13:07:34,456 - #47 0
+INFO  13:07:34,456 - #23 ]
+INFO  13:07:34,457 - #5 ;
+INFO  13:07:34,457 - #13 print
+INFO  13:07:34,457 - #24 (
+INFO  13:07:34,457 - #46 bodovi
+INFO  13:07:34,457 - #25 )
+INFO  13:07:34,457 - #5 ;
+INFO  13:07:34,457 - #13 print
+INFO  13:07:34,457 - #24 (
+INFO  13:07:34,457 - #46 eol
+INFO  13:07:34,457 - #25 )
+INFO  13:07:34,457 - #5 ;
+INFO  13:07:34,457 - #13 print
+INFO  13:07:34,457 - #24 (
+INFO  13:07:34,457 - #46 niz
+INFO  13:07:34,458 - #22 [
+INFO  13:07:34,458 - #47 2
+INFO  13:07:34,458 - #23 ]
+INFO  13:07:34,458 - #25 )
+INFO  13:07:34,458 - #5 ;
+INFO  13:07:34,458 - #13 print
+INFO  13:07:34,458 - #24 (
+INFO  13:07:34,458 - #46 eol
+INFO  13:07:34,458 - #25 )
+INFO  13:07:34,458 - #5 ;
+INFO  13:07:34,458 - #46 nizch
+INFO  13:07:34,458 - #4 =
+INFO  13:07:34,458 - #41 new
+INFO  13:07:34,459 - #46 char
+INFO  13:07:34,459 - #22 [
+INFO  13:07:34,459 - #47 3
+INFO  13:07:34,459 - #23 ]
+INFO  13:07:34,459 - #5 ;
+INFO  13:07:34,459 - #46 nizch
+INFO  13:07:34,459 - #22 [
+INFO  13:07:34,459 - #47 0
+INFO  13:07:34,459 - #23 ]
+INFO  13:07:34,459 - #4 =
+INFO  13:07:34,459 - #49 a
+INFO  13:07:34,460 - #5 ;
+INFO  13:07:34,460 - #46 nizch
+INFO  13:07:34,460 - #22 [
+INFO  13:07:34,460 - #46 jedan
+INFO  13:07:34,460 - #23 ]
+INFO  13:07:34,460 - #4 =
+INFO  13:07:34,460 - #49 b
+INFO  13:07:34,460 - #5 ;
+INFO  13:07:34,460 - #46 nizch
+INFO  13:07:34,460 - #22 [
+INFO  13:07:34,460 - #46 pet
+INFO  13:07:34,461 - #29 -
+INFO  13:07:34,461 - #47 3
+INFO  13:07:34,462 - #23 ]
+INFO  13:07:34,462 - #4 =
+INFO  13:07:34,462 - #49 c
+INFO  13:07:34,462 - #5 ;
+INFO  13:07:34,462 - #13 print
+INFO  13:07:34,462 - #24 (
+INFO  13:07:34,462 - #46 nizch
+INFO  13:07:34,462 - #22 [
+INFO  13:07:34,462 - #47 1
+INFO  13:07:34,462 - #23 ]
+INFO  13:07:34,462 - #25 )
+INFO  13:07:34,462 - #5 ;
+INFO  13:07:34,462 - #13 print
+INFO  13:07:34,462 - #24 (
+INFO  13:07:34,462 - #46 eol
+INFO  13:07:34,462 - #25 )
+INFO  13:07:34,462 - #5 ;
+INFO  13:07:34,463 - #13 print
+INFO  13:07:34,463 - #24 (
+INFO  13:07:34,463 - #46 nizch
+INFO  13:07:34,463 - #22 [
+INFO  13:07:34,463 - #46 jedan
+INFO  13:07:34,463 - #38 *
+INFO  13:07:34,463 - #47 2
+INFO  13:07:34,463 - #23 ]
+INFO  13:07:34,463 - #25 )
+INFO  13:07:34,463 - #5 ;
+INFO  13:07:34,463 - #13 print
+INFO  13:07:34,463 - #24 (
+INFO  13:07:34,463 - #46 eol
+INFO  13:07:34,463 - #25 )
+INFO  13:07:34,463 - #5 ;
+INFO  13:07:34,463 - #13 print
+INFO  13:07:34,463 - #24 (
+INFO  13:07:34,463 - #46 ord
+INFO  13:07:34,463 - #24 (
+INFO  13:07:34,463 - #46 nizch
+INFO  13:07:34,463 - #22 [
+INFO  13:07:34,463 - #47 0
+INFO  13:07:34,463 - #23 ]
+INFO  13:07:34,464 - #25 )
+INFO  13:07:34,466 - #25 )
+INFO  13:07:34,466 - #5 ;
+INFO  13:07:34,466 - #46 a
+INFO  13:07:34,466 - #4 =
+INFO  13:07:34,466 - #47 1
+INFO  13:07:34,466 - #5 ;
+INFO  13:07:34,466 - #12 read
+INFO  13:07:34,466 - #24 (
+INFO  13:07:34,467 - #46 bodovi
+INFO  13:07:34,467 - #25 )
+INFO  13:07:34,467 - #5 ;
+INFO  13:07:34,467 - #46 bodovi
+INFO  13:07:34,467 - #4 =
+INFO  13:07:34,467 - #29 -
+INFO  13:07:34,467 - #46 bodovi
+INFO  13:07:34,467 - #30 +
+INFO  13:07:34,467 - #24 (
+INFO  13:07:34,467 - #46 pet
+INFO  13:07:34,467 - #38 *
+INFO  13:07:34,467 - #46 a
+INFO  13:07:34,467 - #39 /
+INFO  13:07:34,467 - #47 2
+INFO  13:07:34,468 - #29 -
+INFO  13:07:34,468 - #46 nula
+INFO  13:07:34,468 - #25 )
+INFO  13:07:34,468 - #38 *
+INFO  13:07:34,468 - #46 bodovi
+INFO  13:07:34,468 - #29 -
+INFO  13:07:34,468 - #24 (
+INFO  13:07:34,468 - #47 3
+INFO  13:07:34,468 - #40 %
+INFO  13:07:34,468 - #47 2
+INFO  13:07:34,470 - #30 +
+INFO  13:07:34,470 - #47 3
+INFO  13:07:34,470 - #38 *
+INFO  13:07:34,470 - #47 2
+INFO  13:07:34,470 - #29 -
+INFO  13:07:34,470 - #47 7
+INFO  13:07:34,471 - #25 )
+INFO  13:07:34,471 - #5 ;
+INFO  13:07:34,471 - #46 bodovi
+INFO  13:07:34,471 - #4 =
+INFO  13:07:34,471 - #29 -
+INFO  13:07:34,471 - #46 bodovi
+INFO  13:07:34,471 - #5 ;
+INFO  13:07:34,471 - #13 print
+INFO  13:07:34,471 - #24 (
+INFO  13:07:34,471 - #46 bodovi
+INFO  13:07:34,471 - #25 )
+INFO  13:07:34,471 - #5 ;
+INFO  13:07:34,471 - #13 print
+INFO  13:07:34,471 - #24 (
+INFO  13:07:34,471 - #46 eol
+INFO  13:07:34,471 - #25 )
+INFO  13:07:34,471 - #5 ;
+INFO  13:07:34,472 - #13 print
+INFO  13:07:34,472 - #24 (
+INFO  13:07:34,472 - #49 a
+INFO  13:07:34,472 - #25 )
+INFO  13:07:34,472 - #5 ;
+INFO  13:07:34,472 - #13 print
+INFO  13:07:34,472 - #24 (
+INFO  13:07:34,472 - #46 eol
+INFO  13:07:34,473 - #25 )
+INFO  13:07:34,473 - #5 ;
+INFO  13:07:34,473 - #46 niz
+INFO  13:07:34,473 - #22 [
+INFO  13:07:34,473 - #47 0
+INFO  13:07:34,473 - #23 ]
+INFO  13:07:34,473 - #4 =
+INFO  13:07:34,473 - #47 1
+INFO  13:07:34,473 - #5 ;
+INFO  13:07:34,473 - #46 niz
+INFO  13:07:34,473 - #22 [
+INFO  13:07:34,473 - #47 1
+INFO  13:07:34,473 - #23 ]
+INFO  13:07:34,473 - #4 =
+INFO  13:07:34,473 - #47 2
+INFO  13:07:34,473 - #5 ;
+INFO  13:07:34,473 - #46 niz
+INFO  13:07:34,474 - #22 [
+INFO  13:07:34,474 - #47 2
+INFO  13:07:34,474 - #23 ]
+INFO  13:07:34,474 - #4 =
+INFO  13:07:34,474 - #47 3
+INFO  13:07:34,474 - #5 ;
+INFO  13:07:34,474 - #13 print
+INFO  13:07:34,474 - #24 (
+INFO  13:07:34,474 - #46 eol
+INFO  13:07:34,474 - #25 )
+INFO  13:07:34,474 - #5 ;
+INFO  13:07:34,474 - #13 print
+INFO  13:07:34,474 - #24 (
+INFO  13:07:34,474 - #46 niz
+INFO  13:07:34,474 - #22 [
+INFO  13:07:34,475 - #47 0
+INFO  13:07:34,475 - #23 ]
+INFO  13:07:34,475 - #25 )
+INFO  13:07:34,475 - #5 ;
+INFO  13:07:34,475 - #13 print
+INFO  13:07:34,475 - #24 (
+INFO  13:07:34,475 - #46 eol
+INFO  13:07:34,475 - #25 )
+INFO  13:07:34,475 - #5 ;
+INFO  13:07:34,475 - #46 s1
+INFO  13:07:34,475 - #4 =
+INFO  13:07:34,475 - #41 new
+INFO  13:07:34,475 - #46 set
+INFO  13:07:34,476 - #22 [
+INFO  13:07:34,476 - #47 5
+INFO  13:07:34,476 - #23 ]
+INFO  13:07:34,476 - #5 ;
+INFO  13:07:34,476 - #46 s2
+INFO  13:07:34,476 - #4 =
+INFO  13:07:34,476 - #41 new
+INFO  13:07:34,476 - #46 set
+INFO  13:07:34,476 - #22 [
+INFO  13:07:34,476 - #47 5
+INFO  13:07:34,476 - #23 ]
+INFO  13:07:34,476 - #5 ;
+INFO  13:07:34,476 - #46 s3
+INFO  13:07:34,476 - #4 =
+INFO  13:07:34,476 - #41 new
+INFO  13:07:34,476 - #46 set
+INFO  13:07:34,476 - #22 [
+INFO  13:07:34,477 - #47 10
+INFO  13:07:34,477 - #23 ]
+INFO  13:07:34,477 - #5 ;
+INFO  13:07:34,477 - #13 print
+INFO  13:07:34,477 - #24 (
+INFO  13:07:34,477 - #49 N
+INFO  13:07:34,477 - #25 )
+INFO  13:07:34,477 - #5 ;
+INFO  13:07:34,477 - #13 print
+INFO  13:07:34,477 - #24 (
+INFO  13:07:34,477 - #49 M
+INFO  13:07:34,477 - #25 )
+INFO  13:07:34,477 - #5 ;
+INFO  13:07:34,477 - #46 add
+INFO  13:07:34,477 - #24 (
+INFO  13:07:34,477 - #46 s2
+INFO  13:07:34,477 - #6 ,
+INFO  13:07:34,477 - #47 3
+INFO  13:07:34,478 - #25 )
+INFO  13:07:34,478 - #5 ;
+INFO  13:07:34,478 - #13 print
+INFO  13:07:34,478 - #24 (
+INFO  13:07:34,478 - #47 68
+INFO  13:07:34,478 - #25 )
+INFO  13:07:34,478 - #5 ;
+INFO  13:07:34,478 - #46 add
+INFO  13:07:34,478 - #24 (
+INFO  13:07:34,478 - #46 s2
+INFO  13:07:34,478 - #6 ,
+INFO  13:07:34,478 - #47 4
+INFO  13:07:34,479 - #25 )
+INFO  13:07:34,479 - #5 ;
+INFO  13:07:34,479 - #46 add
+INFO  13:07:34,479 - #24 (
+INFO  13:07:34,479 - #46 s2
+INFO  13:07:34,479 - #6 ,
+INFO  13:07:34,479 - #47 5
+INFO  13:07:34,479 - #25 )
+INFO  13:07:34,479 - #5 ;
+INFO  13:07:34,479 - #13 print
+INFO  13:07:34,479 - #24 (
+INFO  13:07:34,479 - #46 s2
+INFO  13:07:34,479 - #25 )
+INFO  13:07:34,479 - #5 ;
+INFO  13:07:34,479 - #27 }
+INFO  13:07:34,480 - #27 }
+INFO  13:07:34,501 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              Declarations(
+                NoDeclarations(
+                ) [NoDeclarations]
+                ConstDeclaration(
+                  ConstDecl(
+                    Type(
+                     int
+                    ) [Type]
+                    SingleConstAssign(
+                      ListElems(
+                       nula
+                        ConstNum(
+                         0
+                        ) [ConstNum]
+                      ) [ListElems]
+                    ) [SingleConstAssign]
+                  ) [ConstDecl]
+                ) [ConstDeclaration]
+              ) [Declarations]
+              ConstDeclaration(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  SingleConstAssign(
+                    ListElems(
+                     jedan
+                      ConstNum(
+                       1
+                      ) [ConstNum]
+                    ) [ListElems]
+                  ) [SingleConstAssign]
+                ) [ConstDecl]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            ConstDeclaration(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                SingleConstAssign(
+                  ListElems(
+                   pet
+                    ConstNum(
+                     5
+                    ) [ConstNum]
+                  ) [ListElems]
+                ) [SingleConstAssign]
+              ) [ConstDecl]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          VarDeclaration(
+            VariableDecl(
+              Type(
+               int
+              ) [Type]
+              SingleVarAssign(
+                VarAssign_array(
+                 niz
+                ) [VarAssign_array]
+              ) [SingleVarAssign]
+            ) [VariableDecl]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VariableDecl(
+            Type(
+             char
+            ) [Type]
+            SingleVarAssign(
+              VarAssign_array(
+               nizch
+              ) [VarAssign_array]
+            ) [SingleVarAssign]
+          ) [VariableDecl]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VariableDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarAssign(
+            VarAssign_var(
+             a
+            ) [VarAssign_var]
+          ) [SingleVarAssign]
+        ) [VariableDecl]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VariableDecl(
+        Type(
+         set
+        ) [Type]
+        RestVariableDecl(
+          RestVariableDecl(
+            SingleVarAssign(
+              VarAssign_var(
+               s1
+              ) [VarAssign_var]
+            ) [SingleVarAssign]
+            VarAssign_var(
+             s2
+            ) [VarAssign_var]
+          ) [RestVariableDecl]
+          VarAssign_var(
+           s3
+          ) [VarAssign_var]
+        ) [RestVariableDecl]
+      ) [VariableDecl]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartVoid(
+         main
+        ) [MethodStartVoid]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      VariableDeclList(
+        VariableDeclList(
+          NoVarDecList(
+          ) [NoVarDecList]
+          VariableDecl(
+            Type(
+             int
+            ) [Type]
+            SingleVarAssign(
+              VarAssign_var(
+               bodovi
+              ) [VarAssign_var]
+            ) [SingleVarAssign]
+          ) [VariableDecl]
+        ) [VariableDeclList]
+        VariableDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarAssign(
+            VarAssign_var(
+             temp
+            ) [VarAssign_var]
+          ) [SingleVarAssign]
+        ) [VariableDecl]
+      ) [VariableDeclList]
+      StatementListGlobal(
+        StatementListGlobal(
+          StatementListGlobal(
+            StatementListGlobal(
+              StatementListGlobal(
+                StatementListGlobal(
+                  StatementListGlobal(
+                    StatementListGlobal(
+                      StatementListGlobal(
+                        StatementListGlobal(
+                          StatementListGlobal(
+                            StatementListGlobal(
+                              StatementListGlobal(
+                                StatementListGlobal(
+                                  StatementListGlobal(
+                                    StatementListGlobal(
+                                      StatementListGlobal(
+                                        StatementListGlobal(
+                                          StatementListGlobal(
+                                            StatementListGlobal(
+                                              StatementListGlobal(
+                                                StatementListGlobal(
+                                                  StatementListGlobal(
+                                                    StatementListGlobal(
+                                                      StatementListGlobal(
+                                                        StatementListGlobal(
+                                                          StatementListGlobal(
+                                                            StatementListGlobal(
+                                                              StatementListGlobal(
+                                                                StatementListGlobal(
+                                                                  StatementListGlobal(
+                                                                    StatementListGlobal(
+                                                                      StatementListGlobal(
+                                                                        StatementListGlobal(
+                                                                          StatementListGlobal(
+                                                                            StatementListGlobal(
+                                                                              StatementListGlobal(
+                                                                                StatementListGlobal(
+                                                                                  StatementListGlobal(
+                                                                                    StatementListGlobal(
+                                                                                      StatementListGlobal(
+                                                                                        StatementListGlobal(
+                                                                                          StatementListGlobal(
+                                                                                            StatementListGlobal(
+                                                                                              StatementListGlobal(
+                                                                                                StatementListGlobal(
+                                                                                                  StatementListGlobal(
+                                                                                                    StatementListGlobal(
+                                                                                                      StatementListGlobal(
+                                                                                                        NoStatementList(
+                                                                                                        ) [NoStatementList]
+                                                                                                        DesignatorStmt(
+                                                                                                          DesignAssignExpr(
+                                                                                                            DesignIdent(
+                                                                                                             bodovi
+                                                                                                            ) [DesignIdent]
+                                                                                                            AssignOp(
+                                                                                                            ) [AssignOp]
+                                                                                                            ExprFirstOpt(
+                                                                                                              ExprStartWithoutMinus(
+                                                                                                                TermFactor(
+                                                                                                                  NumFactor(
+                                                                                                                   0
+                                                                                                                  ) [NumFactor]
+                                                                                                                ) [TermFactor]
+                                                                                                              ) [ExprStartWithoutMinus]
+                                                                                                              NoExprAddopList(
+                                                                                                              ) [NoExprAddopList]
+                                                                                                            ) [ExprFirstOpt]
+                                                                                                          ) [DesignAssignExpr]
+                                                                                                        ) [DesignatorStmt]
+                                                                                                      ) [StatementListGlobal]
+                                                                                                      DesignatorStmt(
+                                                                                                        DesignIncrement(
+                                                                                                          DesignIdent(
+                                                                                                           bodovi
+                                                                                                          ) [DesignIdent]
+                                                                                                        ) [DesignIncrement]
+                                                                                                      ) [DesignatorStmt]
+                                                                                                    ) [StatementListGlobal]
+                                                                                                    DesignatorStmt(
+                                                                                                      DesignAssignExpr(
+                                                                                                        DesignIdent(
+                                                                                                         bodovi
+                                                                                                        ) [DesignIdent]
+                                                                                                        AssignOp(
+                                                                                                        ) [AssignOp]
+                                                                                                        ExprFirstOpt(
+                                                                                                          ExprStartWithoutMinus(
+                                                                                                            TermFactor(
+                                                                                                              DesignatorVar(
+                                                                                                                DesignIdent(
+                                                                                                                 bodovi
+                                                                                                                ) [DesignIdent]
+                                                                                                              ) [DesignatorVar]
+                                                                                                            ) [TermFactor]
+                                                                                                          ) [ExprStartWithoutMinus]
+                                                                                                          ExprAddopListGlobal(
+                                                                                                            NoExprAddopList(
+                                                                                                            ) [NoExprAddopList]
+                                                                                                            Plus(
+                                                                                                            ) [Plus]
+                                                                                                            TermFactor(
+                                                                                                              DesignatorVar(
+                                                                                                                DesignIdent(
+                                                                                                                 jedan
+                                                                                                                ) [DesignIdent]
+                                                                                                              ) [DesignatorVar]
+                                                                                                            ) [TermFactor]
+                                                                                                          ) [ExprAddopListGlobal]
+                                                                                                        ) [ExprFirstOpt]
+                                                                                                      ) [DesignAssignExpr]
+                                                                                                    ) [DesignatorStmt]
+                                                                                                  ) [StatementListGlobal]
+                                                                                                  DesignatorStmt(
+                                                                                                    DesignAssignExpr(
+                                                                                                      DesignIdent(
+                                                                                                       bodovi
+                                                                                                      ) [DesignIdent]
+                                                                                                      AssignOp(
+                                                                                                      ) [AssignOp]
+                                                                                                      ExprFirstOpt(
+                                                                                                        ExprStartWithoutMinus(
+                                                                                                          TermMulop(
+                                                                                                            TermFactor(
+                                                                                                              DesignatorVar(
+                                                                                                                DesignIdent(
+                                                                                                                 bodovi
+                                                                                                                ) [DesignIdent]
+                                                                                                              ) [DesignatorVar]
+                                                                                                            ) [TermFactor]
+                                                                                                            MulopOp(
+                                                                                                            ) [MulopOp]
+                                                                                                            DesignatorVar(
+                                                                                                              DesignIdent(
+                                                                                                               pet
+                                                                                                              ) [DesignIdent]
+                                                                                                            ) [DesignatorVar]
+                                                                                                          ) [TermMulop]
+                                                                                                        ) [ExprStartWithoutMinus]
+                                                                                                        NoExprAddopList(
+                                                                                                        ) [NoExprAddopList]
+                                                                                                      ) [ExprFirstOpt]
+                                                                                                    ) [DesignAssignExpr]
+                                                                                                  ) [DesignatorStmt]
+                                                                                                ) [StatementListGlobal]
+                                                                                                DesignatorStmt(
+                                                                                                  DesignDecrement(
+                                                                                                    DesignIdent(
+                                                                                                     bodovi
+                                                                                                    ) [DesignIdent]
+                                                                                                  ) [DesignDecrement]
+                                                                                                ) [DesignatorStmt]
+                                                                                              ) [StatementListGlobal]
+                                                                                              PrintStmt(
+                                                                                                ExprFirstOpt(
+                                                                                                  ExprStartWithoutMinus(
+                                                                                                    TermFactor(
+                                                                                                      DesignatorVar(
+                                                                                                        DesignIdent(
+                                                                                                         bodovi
+                                                                                                        ) [DesignIdent]
+                                                                                                      ) [DesignatorVar]
+                                                                                                    ) [TermFactor]
+                                                                                                  ) [ExprStartWithoutMinus]
+                                                                                                  NoExprAddopList(
+                                                                                                  ) [NoExprAddopList]
+                                                                                                ) [ExprFirstOpt]
+                                                                                              ) [PrintStmt]
+                                                                                            ) [StatementListGlobal]
+                                                                                            PrintStmt(
+                                                                                              ExprFirstOpt(
+                                                                                                ExprStartWithoutMinus(
+                                                                                                  TermFactor(
+                                                                                                    DesignatorVar(
+                                                                                                      DesignIdent(
+                                                                                                       eol
+                                                                                                      ) [DesignIdent]
+                                                                                                    ) [DesignatorVar]
+                                                                                                  ) [TermFactor]
+                                                                                                ) [ExprStartWithoutMinus]
+                                                                                                NoExprAddopList(
+                                                                                                ) [NoExprAddopList]
+                                                                                              ) [ExprFirstOpt]
+                                                                                            ) [PrintStmt]
+                                                                                          ) [StatementListGlobal]
+                                                                                          DesignatorStmt(
+                                                                                            DesignAssignExpr(
+                                                                                              DesignIdent(
+                                                                                               niz
+                                                                                              ) [DesignIdent]
+                                                                                              AssignOp(
+                                                                                              ) [AssignOp]
+                                                                                              ExprFirstOpt(
+                                                                                                ExprStartWithoutMinus(
+                                                                                                  TermFactor(
+                                                                                                    ArrayFactor(
+                                                                                                      Type(
+                                                                                                       int
+                                                                                                      ) [Type]
+                                                                                                      ExprFirstOpt(
+                                                                                                        ExprStartWithoutMinus(
+                                                                                                          TermFactor(
+                                                                                                            NumFactor(
+                                                                                                             3
+                                                                                                            ) [NumFactor]
+                                                                                                          ) [TermFactor]
+                                                                                                        ) [ExprStartWithoutMinus]
+                                                                                                        NoExprAddopList(
+                                                                                                        ) [NoExprAddopList]
+                                                                                                      ) [ExprFirstOpt]
+                                                                                                    ) [ArrayFactor]
+                                                                                                  ) [TermFactor]
+                                                                                                ) [ExprStartWithoutMinus]
+                                                                                                NoExprAddopList(
+                                                                                                ) [NoExprAddopList]
+                                                                                              ) [ExprFirstOpt]
+                                                                                            ) [DesignAssignExpr]
+                                                                                          ) [DesignatorStmt]
+                                                                                        ) [StatementListGlobal]
+                                                                                        DesignatorStmt(
+                                                                                          DesignAssignExpr(
+                                                                                            DesignArrElem(
+                                                                                              DesignArr(
+                                                                                                DesignIdent(
+                                                                                                 niz
+                                                                                                ) [DesignIdent]
+                                                                                              ) [DesignArr]
+                                                                                              ExprFirstOpt(
+                                                                                                ExprStartWithoutMinus(
+                                                                                                  TermFactor(
+                                                                                                    DesignatorVar(
+                                                                                                      DesignIdent(
+                                                                                                       nula
+                                                                                                      ) [DesignIdent]
+                                                                                                    ) [DesignatorVar]
+                                                                                                  ) [TermFactor]
+                                                                                                ) [ExprStartWithoutMinus]
+                                                                                                NoExprAddopList(
+                                                                                                ) [NoExprAddopList]
+                                                                                              ) [ExprFirstOpt]
+                                                                                            ) [DesignArrElem]
+                                                                                            AssignOp(
+                                                                                            ) [AssignOp]
+                                                                                            ExprFirstOpt(
+                                                                                              ExprStartWithoutMinus(
+                                                                                                TermFactor(
+                                                                                                  NumFactor(
+                                                                                                   2
+                                                                                                  ) [NumFactor]
+                                                                                                ) [TermFactor]
+                                                                                              ) [ExprStartWithoutMinus]
+                                                                                              NoExprAddopList(
+                                                                                              ) [NoExprAddopList]
+                                                                                            ) [ExprFirstOpt]
+                                                                                          ) [DesignAssignExpr]
+                                                                                        ) [DesignatorStmt]
+                                                                                      ) [StatementListGlobal]
+                                                                                      DesignatorStmt(
+                                                                                        DesignAssignExpr(
+                                                                                          DesignArrElem(
+                                                                                            DesignArr(
+                                                                                              DesignIdent(
+                                                                                               niz
+                                                                                              ) [DesignIdent]
+                                                                                            ) [DesignArr]
+                                                                                            ExprFirstOpt(
+                                                                                              ExprStartWithoutMinus(
+                                                                                                TermFactor(
+                                                                                                  DesignatorVar(
+                                                                                                    DesignIdent(
+                                                                                                     jedan
+                                                                                                    ) [DesignIdent]
+                                                                                                  ) [DesignatorVar]
+                                                                                                ) [TermFactor]
+                                                                                              ) [ExprStartWithoutMinus]
+                                                                                              NoExprAddopList(
+                                                                                              ) [NoExprAddopList]
+                                                                                            ) [ExprFirstOpt]
+                                                                                          ) [DesignArrElem]
+                                                                                          AssignOp(
+                                                                                          ) [AssignOp]
+                                                                                          ExprFirstOpt(
+                                                                                            ExprStartWithoutMinus(
+                                                                                              TermFactor(
+                                                                                                NumFactor(
+                                                                                                 3
+                                                                                                ) [NumFactor]
+                                                                                              ) [TermFactor]
+                                                                                            ) [ExprStartWithoutMinus]
+                                                                                            NoExprAddopList(
+                                                                                            ) [NoExprAddopList]
+                                                                                          ) [ExprFirstOpt]
+                                                                                        ) [DesignAssignExpr]
+                                                                                      ) [DesignatorStmt]
+                                                                                    ) [StatementListGlobal]
+                                                                                    DesignatorStmt(
+                                                                                      DesignAssignExpr(
+                                                                                        DesignArrElem(
+                                                                                          DesignArr(
+                                                                                            DesignIdent(
+                                                                                             niz
+                                                                                            ) [DesignIdent]
+                                                                                          ) [DesignArr]
+                                                                                          ExprFirstOpt(
+                                                                                            ExprStartWithoutMinus(
+                                                                                              TermFactor(
+                                                                                                DesignatorVar(
+                                                                                                  DesignArrElem(
+                                                                                                    DesignArr(
+                                                                                                      DesignIdent(
+                                                                                                       niz
+                                                                                                      ) [DesignIdent]
+                                                                                                    ) [DesignArr]
+                                                                                                    ExprFirstOpt(
+                                                                                                      ExprStartWithoutMinus(
+                                                                                                        TermFactor(
+                                                                                                          DesignatorVar(
+                                                                                                            DesignIdent(
+                                                                                                             nula
+                                                                                                            ) [DesignIdent]
+                                                                                                          ) [DesignatorVar]
+                                                                                                        ) [TermFactor]
+                                                                                                      ) [ExprStartWithoutMinus]
+                                                                                                      NoExprAddopList(
+                                                                                                      ) [NoExprAddopList]
+                                                                                                    ) [ExprFirstOpt]
+                                                                                                  ) [DesignArrElem]
+                                                                                                ) [DesignatorVar]
+                                                                                              ) [TermFactor]
+                                                                                            ) [ExprStartWithoutMinus]
+                                                                                            NoExprAddopList(
+                                                                                            ) [NoExprAddopList]
+                                                                                          ) [ExprFirstOpt]
+                                                                                        ) [DesignArrElem]
+                                                                                        AssignOp(
+                                                                                        ) [AssignOp]
+                                                                                        ExprFirstOpt(
+                                                                                          ExprStartWithoutMinus(
+                                                                                            TermMulop(
+                                                                                              TermFactor(
+                                                                                                DesignatorVar(
+                                                                                                  DesignArrElem(
+                                                                                                    DesignArr(
+                                                                                                      DesignIdent(
+                                                                                                       niz
+                                                                                                      ) [DesignIdent]
+                                                                                                    ) [DesignArr]
+                                                                                                    ExprFirstOpt(
+                                                                                                      ExprStartWithoutMinus(
+                                                                                                        TermFactor(
+                                                                                                          NumFactor(
+                                                                                                           1
+                                                                                                          ) [NumFactor]
+                                                                                                        ) [TermFactor]
+                                                                                                      ) [ExprStartWithoutMinus]
+                                                                                                      NoExprAddopList(
+                                                                                                      ) [NoExprAddopList]
+                                                                                                    ) [ExprFirstOpt]
+                                                                                                  ) [DesignArrElem]
+                                                                                                ) [DesignatorVar]
+                                                                                              ) [TermFactor]
+                                                                                              MulopOp(
+                                                                                              ) [MulopOp]
+                                                                                              NumFactor(
+                                                                                               4
+                                                                                              ) [NumFactor]
+                                                                                            ) [TermMulop]
+                                                                                          ) [ExprStartWithoutMinus]
+                                                                                          NoExprAddopList(
+                                                                                          ) [NoExprAddopList]
+                                                                                        ) [ExprFirstOpt]
+                                                                                      ) [DesignAssignExpr]
+                                                                                    ) [DesignatorStmt]
+                                                                                  ) [StatementListGlobal]
+                                                                                  DesignatorStmt(
+                                                                                    DesignAssignExpr(
+                                                                                      DesignIdent(
+                                                                                       bodovi
+                                                                                      ) [DesignIdent]
+                                                                                      AssignOp(
+                                                                                      ) [AssignOp]
+                                                                                      ExprFirstOpt(
+                                                                                        ExprStartWithoutMinus(
+                                                                                          TermMulop(
+                                                                                            TermFactor(
+                                                                                              DesignatorVar(
+                                                                                                DesignArrElem(
+                                                                                                  DesignArr(
+                                                                                                    DesignIdent(
+                                                                                                     niz
+                                                                                                    ) [DesignIdent]
+                                                                                                  ) [DesignArr]
+                                                                                                  ExprFirstOpt(
+                                                                                                    ExprStartWithoutMinus(
+                                                                                                      TermFactor(
+                                                                                                        NumFactor(
+                                                                                                         2
+                                                                                                        ) [NumFactor]
+                                                                                                      ) [TermFactor]
+                                                                                                    ) [ExprStartWithoutMinus]
+                                                                                                    NoExprAddopList(
+                                                                                                    ) [NoExprAddopList]
+                                                                                                  ) [ExprFirstOpt]
+                                                                                                ) [DesignArrElem]
+                                                                                              ) [DesignatorVar]
+                                                                                            ) [TermFactor]
+                                                                                            DivOp(
+                                                                                            ) [DivOp]
+                                                                                            DesignatorVar(
+                                                                                              DesignArrElem(
+                                                                                                DesignArr(
+                                                                                                  DesignIdent(
+                                                                                                   niz
+                                                                                                  ) [DesignIdent]
+                                                                                                ) [DesignArr]
+                                                                                                ExprFirstOpt(
+                                                                                                  ExprStartWithoutMinus(
+                                                                                                    TermFactor(
+                                                                                                      NumFactor(
+                                                                                                       0
+                                                                                                      ) [NumFactor]
+                                                                                                    ) [TermFactor]
+                                                                                                  ) [ExprStartWithoutMinus]
+                                                                                                  NoExprAddopList(
+                                                                                                  ) [NoExprAddopList]
+                                                                                                ) [ExprFirstOpt]
+                                                                                              ) [DesignArrElem]
+                                                                                            ) [DesignatorVar]
+                                                                                          ) [TermMulop]
+                                                                                        ) [ExprStartWithoutMinus]
+                                                                                        NoExprAddopList(
+                                                                                        ) [NoExprAddopList]
+                                                                                      ) [ExprFirstOpt]
+                                                                                    ) [DesignAssignExpr]
+                                                                                  ) [DesignatorStmt]
+                                                                                ) [StatementListGlobal]
+                                                                                PrintStmt(
+                                                                                  ExprFirstOpt(
+                                                                                    ExprStartWithoutMinus(
+                                                                                      TermFactor(
+                                                                                        DesignatorVar(
+                                                                                          DesignIdent(
+                                                                                           bodovi
+                                                                                          ) [DesignIdent]
+                                                                                        ) [DesignatorVar]
+                                                                                      ) [TermFactor]
+                                                                                    ) [ExprStartWithoutMinus]
+                                                                                    NoExprAddopList(
+                                                                                    ) [NoExprAddopList]
+                                                                                  ) [ExprFirstOpt]
+                                                                                ) [PrintStmt]
+                                                                              ) [StatementListGlobal]
+                                                                              PrintStmt(
+                                                                                ExprFirstOpt(
+                                                                                  ExprStartWithoutMinus(
+                                                                                    TermFactor(
+                                                                                      DesignatorVar(
+                                                                                        DesignIdent(
+                                                                                         eol
+                                                                                        ) [DesignIdent]
+                                                                                      ) [DesignatorVar]
+                                                                                    ) [TermFactor]
+                                                                                  ) [ExprStartWithoutMinus]
+                                                                                  NoExprAddopList(
+                                                                                  ) [NoExprAddopList]
+                                                                                ) [ExprFirstOpt]
+                                                                              ) [PrintStmt]
+                                                                            ) [StatementListGlobal]
+                                                                            PrintStmt(
+                                                                              ExprFirstOpt(
+                                                                                ExprStartWithoutMinus(
+                                                                                  TermFactor(
+                                                                                    DesignatorVar(
+                                                                                      DesignArrElem(
+                                                                                        DesignArr(
+                                                                                          DesignIdent(
+                                                                                           niz
+                                                                                          ) [DesignIdent]
+                                                                                        ) [DesignArr]
+                                                                                        ExprFirstOpt(
+                                                                                          ExprStartWithoutMinus(
+                                                                                            TermFactor(
+                                                                                              NumFactor(
+                                                                                               2
+                                                                                              ) [NumFactor]
+                                                                                            ) [TermFactor]
+                                                                                          ) [ExprStartWithoutMinus]
+                                                                                          NoExprAddopList(
+                                                                                          ) [NoExprAddopList]
+                                                                                        ) [ExprFirstOpt]
+                                                                                      ) [DesignArrElem]
+                                                                                    ) [DesignatorVar]
+                                                                                  ) [TermFactor]
+                                                                                ) [ExprStartWithoutMinus]
+                                                                                NoExprAddopList(
+                                                                                ) [NoExprAddopList]
+                                                                              ) [ExprFirstOpt]
+                                                                            ) [PrintStmt]
+                                                                          ) [StatementListGlobal]
+                                                                          PrintStmt(
+                                                                            ExprFirstOpt(
+                                                                              ExprStartWithoutMinus(
+                                                                                TermFactor(
+                                                                                  DesignatorVar(
+                                                                                    DesignIdent(
+                                                                                     eol
+                                                                                    ) [DesignIdent]
+                                                                                  ) [DesignatorVar]
+                                                                                ) [TermFactor]
+                                                                              ) [ExprStartWithoutMinus]
+                                                                              NoExprAddopList(
+                                                                              ) [NoExprAddopList]
+                                                                            ) [ExprFirstOpt]
+                                                                          ) [PrintStmt]
+                                                                        ) [StatementListGlobal]
+                                                                        DesignatorStmt(
+                                                                          DesignAssignExpr(
+                                                                            DesignIdent(
+                                                                             nizch
+                                                                            ) [DesignIdent]
+                                                                            AssignOp(
+                                                                            ) [AssignOp]
+                                                                            ExprFirstOpt(
+                                                                              ExprStartWithoutMinus(
+                                                                                TermFactor(
+                                                                                  ArrayFactor(
+                                                                                    Type(
+                                                                                     char
+                                                                                    ) [Type]
+                                                                                    ExprFirstOpt(
+                                                                                      ExprStartWithoutMinus(
+                                                                                        TermFactor(
+                                                                                          NumFactor(
+                                                                                           3
+                                                                                          ) [NumFactor]
+                                                                                        ) [TermFactor]
+                                                                                      ) [ExprStartWithoutMinus]
+                                                                                      NoExprAddopList(
+                                                                                      ) [NoExprAddopList]
+                                                                                    ) [ExprFirstOpt]
+                                                                                  ) [ArrayFactor]
+                                                                                ) [TermFactor]
+                                                                              ) [ExprStartWithoutMinus]
+                                                                              NoExprAddopList(
+                                                                              ) [NoExprAddopList]
+                                                                            ) [ExprFirstOpt]
+                                                                          ) [DesignAssignExpr]
+                                                                        ) [DesignatorStmt]
+                                                                      ) [StatementListGlobal]
+                                                                      DesignatorStmt(
+                                                                        DesignAssignExpr(
+                                                                          DesignArrElem(
+                                                                            DesignArr(
+                                                                              DesignIdent(
+                                                                               nizch
+                                                                              ) [DesignIdent]
+                                                                            ) [DesignArr]
+                                                                            ExprFirstOpt(
+                                                                              ExprStartWithoutMinus(
+                                                                                TermFactor(
+                                                                                  NumFactor(
+                                                                                   0
+                                                                                  ) [NumFactor]
+                                                                                ) [TermFactor]
+                                                                              ) [ExprStartWithoutMinus]
+                                                                              NoExprAddopList(
+                                                                              ) [NoExprAddopList]
+                                                                            ) [ExprFirstOpt]
+                                                                          ) [DesignArrElem]
+                                                                          AssignOp(
+                                                                          ) [AssignOp]
+                                                                          ExprFirstOpt(
+                                                                            ExprStartWithoutMinus(
+                                                                              TermFactor(
+                                                                                CharFactor(
+                                                                                 a
+                                                                                ) [CharFactor]
+                                                                              ) [TermFactor]
+                                                                            ) [ExprStartWithoutMinus]
+                                                                            NoExprAddopList(
+                                                                            ) [NoExprAddopList]
+                                                                          ) [ExprFirstOpt]
+                                                                        ) [DesignAssignExpr]
+                                                                      ) [DesignatorStmt]
+                                                                    ) [StatementListGlobal]
+                                                                    DesignatorStmt(
+                                                                      DesignAssignExpr(
+                                                                        DesignArrElem(
+                                                                          DesignArr(
+                                                                            DesignIdent(
+                                                                             nizch
+                                                                            ) [DesignIdent]
+                                                                          ) [DesignArr]
+                                                                          ExprFirstOpt(
+                                                                            ExprStartWithoutMinus(
+                                                                              TermFactor(
+                                                                                DesignatorVar(
+                                                                                  DesignIdent(
+                                                                                   jedan
+                                                                                  ) [DesignIdent]
+                                                                                ) [DesignatorVar]
+                                                                              ) [TermFactor]
+                                                                            ) [ExprStartWithoutMinus]
+                                                                            NoExprAddopList(
+                                                                            ) [NoExprAddopList]
+                                                                          ) [ExprFirstOpt]
+                                                                        ) [DesignArrElem]
+                                                                        AssignOp(
+                                                                        ) [AssignOp]
+                                                                        ExprFirstOpt(
+                                                                          ExprStartWithoutMinus(
+                                                                            TermFactor(
+                                                                              CharFactor(
+                                                                               b
+                                                                              ) [CharFactor]
+                                                                            ) [TermFactor]
+                                                                          ) [ExprStartWithoutMinus]
+                                                                          NoExprAddopList(
+                                                                          ) [NoExprAddopList]
+                                                                        ) [ExprFirstOpt]
+                                                                      ) [DesignAssignExpr]
+                                                                    ) [DesignatorStmt]
+                                                                  ) [StatementListGlobal]
+                                                                  DesignatorStmt(
+                                                                    DesignAssignExpr(
+                                                                      DesignArrElem(
+                                                                        DesignArr(
+                                                                          DesignIdent(
+                                                                           nizch
+                                                                          ) [DesignIdent]
+                                                                        ) [DesignArr]
+                                                                        ExprFirstOpt(
+                                                                          ExprStartWithoutMinus(
+                                                                            TermFactor(
+                                                                              DesignatorVar(
+                                                                                DesignIdent(
+                                                                                 pet
+                                                                                ) [DesignIdent]
+                                                                              ) [DesignatorVar]
+                                                                            ) [TermFactor]
+                                                                          ) [ExprStartWithoutMinus]
+                                                                          ExprAddopListGlobal(
+                                                                            NoExprAddopList(
+                                                                            ) [NoExprAddopList]
+                                                                            Minus(
+                                                                            ) [Minus]
+                                                                            TermFactor(
+                                                                              NumFactor(
+                                                                               3
+                                                                              ) [NumFactor]
+                                                                            ) [TermFactor]
+                                                                          ) [ExprAddopListGlobal]
+                                                                        ) [ExprFirstOpt]
+                                                                      ) [DesignArrElem]
+                                                                      AssignOp(
+                                                                      ) [AssignOp]
+                                                                      ExprFirstOpt(
+                                                                        ExprStartWithoutMinus(
+                                                                          TermFactor(
+                                                                            CharFactor(
+                                                                             c
+                                                                            ) [CharFactor]
+                                                                          ) [TermFactor]
+                                                                        ) [ExprStartWithoutMinus]
+                                                                        NoExprAddopList(
+                                                                        ) [NoExprAddopList]
+                                                                      ) [ExprFirstOpt]
+                                                                    ) [DesignAssignExpr]
+                                                                  ) [DesignatorStmt]
+                                                                ) [StatementListGlobal]
+                                                                PrintStmt(
+                                                                  ExprFirstOpt(
+                                                                    ExprStartWithoutMinus(
+                                                                      TermFactor(
+                                                                        DesignatorVar(
+                                                                          DesignArrElem(
+                                                                            DesignArr(
+                                                                              DesignIdent(
+                                                                               nizch
+                                                                              ) [DesignIdent]
+                                                                            ) [DesignArr]
+                                                                            ExprFirstOpt(
+                                                                              ExprStartWithoutMinus(
+                                                                                TermFactor(
+                                                                                  NumFactor(
+                                                                                   1
+                                                                                  ) [NumFactor]
+                                                                                ) [TermFactor]
+                                                                              ) [ExprStartWithoutMinus]
+                                                                              NoExprAddopList(
+                                                                              ) [NoExprAddopList]
+                                                                            ) [ExprFirstOpt]
+                                                                          ) [DesignArrElem]
+                                                                        ) [DesignatorVar]
+                                                                      ) [TermFactor]
+                                                                    ) [ExprStartWithoutMinus]
+                                                                    NoExprAddopList(
+                                                                    ) [NoExprAddopList]
+                                                                  ) [ExprFirstOpt]
+                                                                ) [PrintStmt]
+                                                              ) [StatementListGlobal]
+                                                              PrintStmt(
+                                                                ExprFirstOpt(
+                                                                  ExprStartWithoutMinus(
+                                                                    TermFactor(
+                                                                      DesignatorVar(
+                                                                        DesignIdent(
+                                                                         eol
+                                                                        ) [DesignIdent]
+                                                                      ) [DesignatorVar]
+                                                                    ) [TermFactor]
+                                                                  ) [ExprStartWithoutMinus]
+                                                                  NoExprAddopList(
+                                                                  ) [NoExprAddopList]
+                                                                ) [ExprFirstOpt]
+                                                              ) [PrintStmt]
+                                                            ) [StatementListGlobal]
+                                                            PrintStmt(
+                                                              ExprFirstOpt(
+                                                                ExprStartWithoutMinus(
+                                                                  TermFactor(
+                                                                    DesignatorVar(
+                                                                      DesignArrElem(
+                                                                        DesignArr(
+                                                                          DesignIdent(
+                                                                           nizch
+                                                                          ) [DesignIdent]
+                                                                        ) [DesignArr]
+                                                                        ExprFirstOpt(
+                                                                          ExprStartWithoutMinus(
+                                                                            TermMulop(
+                                                                              TermFactor(
+                                                                                DesignatorVar(
+                                                                                  DesignIdent(
+                                                                                   jedan
+                                                                                  ) [DesignIdent]
+                                                                                ) [DesignatorVar]
+                                                                              ) [TermFactor]
+                                                                              MulopOp(
+                                                                              ) [MulopOp]
+                                                                              NumFactor(
+                                                                               2
+                                                                              ) [NumFactor]
+                                                                            ) [TermMulop]
+                                                                          ) [ExprStartWithoutMinus]
+                                                                          NoExprAddopList(
+                                                                          ) [NoExprAddopList]
+                                                                        ) [ExprFirstOpt]
+                                                                      ) [DesignArrElem]
+                                                                    ) [DesignatorVar]
+                                                                  ) [TermFactor]
+                                                                ) [ExprStartWithoutMinus]
+                                                                NoExprAddopList(
+                                                                ) [NoExprAddopList]
+                                                              ) [ExprFirstOpt]
+                                                            ) [PrintStmt]
+                                                          ) [StatementListGlobal]
+                                                          PrintStmt(
+                                                            ExprFirstOpt(
+                                                              ExprStartWithoutMinus(
+                                                                TermFactor(
+                                                                  DesignatorVar(
+                                                                    DesignIdent(
+                                                                     eol
+                                                                    ) [DesignIdent]
+                                                                  ) [DesignatorVar]
+                                                                ) [TermFactor]
+                                                              ) [ExprStartWithoutMinus]
+                                                              NoExprAddopList(
+                                                              ) [NoExprAddopList]
+                                                            ) [ExprFirstOpt]
+                                                          ) [PrintStmt]
+                                                        ) [StatementListGlobal]
+                                                        PrintStmt(
+                                                          ExprFirstOpt(
+                                                            ExprStartWithoutMinus(
+                                                              TermFactor(
+                                                                DesignatorFuncCall(
+                                                                  DesignIdent(
+                                                                   ord
+                                                                  ) [DesignIdent]
+                                                                  ActualParameterList(
+                                                                    ActPars(
+                                                                      ExprFirstOpt(
+                                                                        ExprStartWithoutMinus(
+                                                                          TermFactor(
+                                                                            DesignatorVar(
+                                                                              DesignArrElem(
+                                                                                DesignArr(
+                                                                                  DesignIdent(
+                                                                                   nizch
+                                                                                  ) [DesignIdent]
+                                                                                ) [DesignArr]
+                                                                                ExprFirstOpt(
+                                                                                  ExprStartWithoutMinus(
+                                                                                    TermFactor(
+                                                                                      NumFactor(
+                                                                                       0
+                                                                                      ) [NumFactor]
+                                                                                    ) [TermFactor]
+                                                                                  ) [ExprStartWithoutMinus]
+                                                                                  NoExprAddopList(
+                                                                                  ) [NoExprAddopList]
+                                                                                ) [ExprFirstOpt]
+                                                                              ) [DesignArrElem]
+                                                                            ) [DesignatorVar]
+                                                                          ) [TermFactor]
+                                                                        ) [ExprStartWithoutMinus]
+                                                                        NoExprAddopList(
+                                                                        ) [NoExprAddopList]
+                                                                      ) [ExprFirstOpt]
+                                                                      NoExpressionList(
+                                                                      ) [NoExpressionList]
+                                                                    ) [ActPars]
+                                                                  ) [ActualParameterList]
+                                                                ) [DesignatorFuncCall]
+                                                              ) [TermFactor]
+                                                            ) [ExprStartWithoutMinus]
+                                                            NoExprAddopList(
+                                                            ) [NoExprAddopList]
+                                                          ) [ExprFirstOpt]
+                                                        ) [PrintStmt]
+                                                      ) [StatementListGlobal]
+                                                      DesignatorStmt(
+                                                        DesignAssignExpr(
+                                                          DesignIdent(
+                                                           a
+                                                          ) [DesignIdent]
+                                                          AssignOp(
+                                                          ) [AssignOp]
+                                                          ExprFirstOpt(
+                                                            ExprStartWithoutMinus(
+                                                              TermFactor(
+                                                                NumFactor(
+                                                                 1
+                                                                ) [NumFactor]
+                                                              ) [TermFactor]
+                                                            ) [ExprStartWithoutMinus]
+                                                            NoExprAddopList(
+                                                            ) [NoExprAddopList]
+                                                          ) [ExprFirstOpt]
+                                                        ) [DesignAssignExpr]
+                                                      ) [DesignatorStmt]
+                                                    ) [StatementListGlobal]
+                                                    ReadStmt(
+                                                      DesignIdent(
+                                                       bodovi
+                                                      ) [DesignIdent]
+                                                    ) [ReadStmt]
+                                                  ) [StatementListGlobal]
+                                                  DesignatorStmt(
+                                                    DesignAssignExpr(
+                                                      DesignIdent(
+                                                       bodovi
+                                                      ) [DesignIdent]
+                                                      AssignOp(
+                                                      ) [AssignOp]
+                                                      ExprFirstOpt(
+                                                        ExprStartWithMinus(
+                                                          TermFactor(
+                                                            DesignatorVar(
+                                                              DesignIdent(
+                                                               bodovi
+                                                              ) [DesignIdent]
+                                                            ) [DesignatorVar]
+                                                          ) [TermFactor]
+                                                        ) [ExprStartWithMinus]
+                                                        ExprAddopListGlobal(
+                                                          ExprAddopListGlobal(
+                                                            NoExprAddopList(
+                                                            ) [NoExprAddopList]
+                                                            Plus(
+                                                            ) [Plus]
+                                                            TermMulop(
+                                                              TermFactor(
+                                                                ExprFactor(
+                                                                  ExprFirstOpt(
+                                                                    ExprStartWithoutMinus(
+                                                                      TermMulop(
+                                                                        TermMulop(
+                                                                          TermFactor(
+                                                                            DesignatorVar(
+                                                                              DesignIdent(
+                                                                               pet
+                                                                              ) [DesignIdent]
+                                                                            ) [DesignatorVar]
+                                                                          ) [TermFactor]
+                                                                          MulopOp(
+                                                                          ) [MulopOp]
+                                                                          DesignatorVar(
+                                                                            DesignIdent(
+                                                                             a
+                                                                            ) [DesignIdent]
+                                                                          ) [DesignatorVar]
+                                                                        ) [TermMulop]
+                                                                        DivOp(
+                                                                        ) [DivOp]
+                                                                        NumFactor(
+                                                                         2
+                                                                        ) [NumFactor]
+                                                                      ) [TermMulop]
+                                                                    ) [ExprStartWithoutMinus]
+                                                                    ExprAddopListGlobal(
+                                                                      NoExprAddopList(
+                                                                      ) [NoExprAddopList]
+                                                                      Minus(
+                                                                      ) [Minus]
+                                                                      TermFactor(
+                                                                        DesignatorVar(
+                                                                          DesignIdent(
+                                                                           nula
+                                                                          ) [DesignIdent]
+                                                                        ) [DesignatorVar]
+                                                                      ) [TermFactor]
+                                                                    ) [ExprAddopListGlobal]
+                                                                  ) [ExprFirstOpt]
+                                                                ) [ExprFactor]
+                                                              ) [TermFactor]
+                                                              MulopOp(
+                                                              ) [MulopOp]
+                                                              DesignatorVar(
+                                                                DesignIdent(
+                                                                 bodovi
+                                                                ) [DesignIdent]
+                                                              ) [DesignatorVar]
+                                                            ) [TermMulop]
+                                                          ) [ExprAddopListGlobal]
+                                                          Minus(
+                                                          ) [Minus]
+                                                          TermFactor(
+                                                            ExprFactor(
+                                                              ExprFirstOpt(
+                                                                ExprStartWithoutMinus(
+                                                                  TermMulop(
+                                                                    TermFactor(
+                                                                      NumFactor(
+                                                                       3
+                                                                      ) [NumFactor]
+                                                                    ) [TermFactor]
+                                                                    Percent(
+                                                                    ) [Percent]
+                                                                    NumFactor(
+                                                                     2
+                                                                    ) [NumFactor]
+                                                                  ) [TermMulop]
+                                                                ) [ExprStartWithoutMinus]
+                                                                ExprAddopListGlobal(
+                                                                  ExprAddopListGlobal(
+                                                                    NoExprAddopList(
+                                                                    ) [NoExprAddopList]
+                                                                    Plus(
+                                                                    ) [Plus]
+                                                                    TermMulop(
+                                                                      TermFactor(
+                                                                        NumFactor(
+                                                                         3
+                                                                        ) [NumFactor]
+                                                                      ) [TermFactor]
+                                                                      MulopOp(
+                                                                      ) [MulopOp]
+                                                                      NumFactor(
+                                                                       2
+                                                                      ) [NumFactor]
+                                                                    ) [TermMulop]
+                                                                  ) [ExprAddopListGlobal]
+                                                                  Minus(
+                                                                  ) [Minus]
+                                                                  TermFactor(
+                                                                    NumFactor(
+                                                                     7
+                                                                    ) [NumFactor]
+                                                                  ) [TermFactor]
+                                                                ) [ExprAddopListGlobal]
+                                                              ) [ExprFirstOpt]
+                                                            ) [ExprFactor]
+                                                          ) [TermFactor]
+                                                        ) [ExprAddopListGlobal]
+                                                      ) [ExprFirstOpt]
+                                                    ) [DesignAssignExpr]
+                                                  ) [DesignatorStmt]
+                                                ) [StatementListGlobal]
+                                                DesignatorStmt(
+                                                  DesignAssignExpr(
+                                                    DesignIdent(
+                                                     bodovi
+                                                    ) [DesignIdent]
+                                                    AssignOp(
+                                                    ) [AssignOp]
+                                                    ExprFirstOpt(
+                                                      ExprStartWithMinus(
+                                                        TermFactor(
+                                                          DesignatorVar(
+                                                            DesignIdent(
+                                                             bodovi
+                                                            ) [DesignIdent]
+                                                          ) [DesignatorVar]
+                                                        ) [TermFactor]
+                                                      ) [ExprStartWithMinus]
+                                                      NoExprAddopList(
+                                                      ) [NoExprAddopList]
+                                                    ) [ExprFirstOpt]
+                                                  ) [DesignAssignExpr]
+                                                ) [DesignatorStmt]
+                                              ) [StatementListGlobal]
+                                              PrintStmt(
+                                                ExprFirstOpt(
+                                                  ExprStartWithoutMinus(
+                                                    TermFactor(
+                                                      DesignatorVar(
+                                                        DesignIdent(
+                                                         bodovi
+                                                        ) [DesignIdent]
+                                                      ) [DesignatorVar]
+                                                    ) [TermFactor]
+                                                  ) [ExprStartWithoutMinus]
+                                                  NoExprAddopList(
+                                                  ) [NoExprAddopList]
+                                                ) [ExprFirstOpt]
+                                              ) [PrintStmt]
+                                            ) [StatementListGlobal]
+                                            PrintStmt(
+                                              ExprFirstOpt(
+                                                ExprStartWithoutMinus(
+                                                  TermFactor(
+                                                    DesignatorVar(
+                                                      DesignIdent(
+                                                       eol
+                                                      ) [DesignIdent]
+                                                    ) [DesignatorVar]
+                                                  ) [TermFactor]
+                                                ) [ExprStartWithoutMinus]
+                                                NoExprAddopList(
+                                                ) [NoExprAddopList]
+                                              ) [ExprFirstOpt]
+                                            ) [PrintStmt]
+                                          ) [StatementListGlobal]
+                                          PrintStmt(
+                                            ExprFirstOpt(
+                                              ExprStartWithoutMinus(
+                                                TermFactor(
+                                                  CharFactor(
+                                                   a
+                                                  ) [CharFactor]
+                                                ) [TermFactor]
+                                              ) [ExprStartWithoutMinus]
+                                              NoExprAddopList(
+                                              ) [NoExprAddopList]
+                                            ) [ExprFirstOpt]
+                                          ) [PrintStmt]
+                                        ) [StatementListGlobal]
+                                        PrintStmt(
+                                          ExprFirstOpt(
+                                            ExprStartWithoutMinus(
+                                              TermFactor(
+                                                DesignatorVar(
+                                                  DesignIdent(
+                                                   eol
+                                                  ) [DesignIdent]
+                                                ) [DesignatorVar]
+                                              ) [TermFactor]
+                                            ) [ExprStartWithoutMinus]
+                                            NoExprAddopList(
+                                            ) [NoExprAddopList]
+                                          ) [ExprFirstOpt]
+                                        ) [PrintStmt]
+                                      ) [StatementListGlobal]
+                                      DesignatorStmt(
+                                        DesignAssignExpr(
+                                          DesignArrElem(
+                                            DesignArr(
+                                              DesignIdent(
+                                               niz
+                                              ) [DesignIdent]
+                                            ) [DesignArr]
+                                            ExprFirstOpt(
+                                              ExprStartWithoutMinus(
+                                                TermFactor(
+                                                  NumFactor(
+                                                   0
+                                                  ) [NumFactor]
+                                                ) [TermFactor]
+                                              ) [ExprStartWithoutMinus]
+                                              NoExprAddopList(
+                                              ) [NoExprAddopList]
+                                            ) [ExprFirstOpt]
+                                          ) [DesignArrElem]
+                                          AssignOp(
+                                          ) [AssignOp]
+                                          ExprFirstOpt(
+                                            ExprStartWithoutMinus(
+                                              TermFactor(
+                                                NumFactor(
+                                                 1
+                                                ) [NumFactor]
+                                              ) [TermFactor]
+                                            ) [ExprStartWithoutMinus]
+                                            NoExprAddopList(
+                                            ) [NoExprAddopList]
+                                          ) [ExprFirstOpt]
+                                        ) [DesignAssignExpr]
+                                      ) [DesignatorStmt]
+                                    ) [StatementListGlobal]
+                                    DesignatorStmt(
+                                      DesignAssignExpr(
+                                        DesignArrElem(
+                                          DesignArr(
+                                            DesignIdent(
+                                             niz
+                                            ) [DesignIdent]
+                                          ) [DesignArr]
+                                          ExprFirstOpt(
+                                            ExprStartWithoutMinus(
+                                              TermFactor(
+                                                NumFactor(
+                                                 1
+                                                ) [NumFactor]
+                                              ) [TermFactor]
+                                            ) [ExprStartWithoutMinus]
+                                            NoExprAddopList(
+                                            ) [NoExprAddopList]
+                                          ) [ExprFirstOpt]
+                                        ) [DesignArrElem]
+                                        AssignOp(
+                                        ) [AssignOp]
+                                        ExprFirstOpt(
+                                          ExprStartWithoutMinus(
+                                            TermFactor(
+                                              NumFactor(
+                                               2
+                                              ) [NumFactor]
+                                            ) [TermFactor]
+                                          ) [ExprStartWithoutMinus]
+                                          NoExprAddopList(
+                                          ) [NoExprAddopList]
+                                        ) [ExprFirstOpt]
+                                      ) [DesignAssignExpr]
+                                    ) [DesignatorStmt]
+                                  ) [StatementListGlobal]
+                                  DesignatorStmt(
+                                    DesignAssignExpr(
+                                      DesignArrElem(
+                                        DesignArr(
+                                          DesignIdent(
+                                           niz
+                                          ) [DesignIdent]
+                                        ) [DesignArr]
+                                        ExprFirstOpt(
+                                          ExprStartWithoutMinus(
+                                            TermFactor(
+                                              NumFactor(
+                                               2
+                                              ) [NumFactor]
+                                            ) [TermFactor]
+                                          ) [ExprStartWithoutMinus]
+                                          NoExprAddopList(
+                                          ) [NoExprAddopList]
+                                        ) [ExprFirstOpt]
+                                      ) [DesignArrElem]
+                                      AssignOp(
+                                      ) [AssignOp]
+                                      ExprFirstOpt(
+                                        ExprStartWithoutMinus(
+                                          TermFactor(
+                                            NumFactor(
+                                             3
+                                            ) [NumFactor]
+                                          ) [TermFactor]
+                                        ) [ExprStartWithoutMinus]
+                                        NoExprAddopList(
+                                        ) [NoExprAddopList]
+                                      ) [ExprFirstOpt]
+                                    ) [DesignAssignExpr]
+                                  ) [DesignatorStmt]
+                                ) [StatementListGlobal]
+                                PrintStmt(
+                                  ExprFirstOpt(
+                                    ExprStartWithoutMinus(
+                                      TermFactor(
+                                        DesignatorVar(
+                                          DesignIdent(
+                                           eol
+                                          ) [DesignIdent]
+                                        ) [DesignatorVar]
+                                      ) [TermFactor]
+                                    ) [ExprStartWithoutMinus]
+                                    NoExprAddopList(
+                                    ) [NoExprAddopList]
+                                  ) [ExprFirstOpt]
+                                ) [PrintStmt]
+                              ) [StatementListGlobal]
+                              PrintStmt(
+                                ExprFirstOpt(
+                                  ExprStartWithoutMinus(
+                                    TermFactor(
+                                      DesignatorVar(
+                                        DesignArrElem(
+                                          DesignArr(
+                                            DesignIdent(
+                                             niz
+                                            ) [DesignIdent]
+                                          ) [DesignArr]
+                                          ExprFirstOpt(
+                                            ExprStartWithoutMinus(
+                                              TermFactor(
+                                                NumFactor(
+                                                 0
+                                                ) [NumFactor]
+                                              ) [TermFactor]
+                                            ) [ExprStartWithoutMinus]
+                                            NoExprAddopList(
+                                            ) [NoExprAddopList]
+                                          ) [ExprFirstOpt]
+                                        ) [DesignArrElem]
+                                      ) [DesignatorVar]
+                                    ) [TermFactor]
+                                  ) [ExprStartWithoutMinus]
+                                  NoExprAddopList(
+                                  ) [NoExprAddopList]
+                                ) [ExprFirstOpt]
+                              ) [PrintStmt]
+                            ) [StatementListGlobal]
+                            PrintStmt(
+                              ExprFirstOpt(
+                                ExprStartWithoutMinus(
+                                  TermFactor(
+                                    DesignatorVar(
+                                      DesignIdent(
+                                       eol
+                                      ) [DesignIdent]
+                                    ) [DesignatorVar]
+                                  ) [TermFactor]
+                                ) [ExprStartWithoutMinus]
+                                NoExprAddopList(
+                                ) [NoExprAddopList]
+                              ) [ExprFirstOpt]
+                            ) [PrintStmt]
+                          ) [StatementListGlobal]
+                          DesignatorStmt(
+                            DesignAssignExpr(
+                              DesignIdent(
+                               s1
+                              ) [DesignIdent]
+                              AssignOp(
+                              ) [AssignOp]
+                              ExprFirstOpt(
+                                ExprStartWithoutMinus(
+                                  TermFactor(
+                                    ArrayFactor(
+                                      Type(
+                                       set
+                                      ) [Type]
+                                      ExprFirstOpt(
+                                        ExprStartWithoutMinus(
+                                          TermFactor(
+                                            NumFactor(
+                                             5
+                                            ) [NumFactor]
+                                          ) [TermFactor]
+                                        ) [ExprStartWithoutMinus]
+                                        NoExprAddopList(
+                                        ) [NoExprAddopList]
+                                      ) [ExprFirstOpt]
+                                    ) [ArrayFactor]
+                                  ) [TermFactor]
+                                ) [ExprStartWithoutMinus]
+                                NoExprAddopList(
+                                ) [NoExprAddopList]
+                              ) [ExprFirstOpt]
+                            ) [DesignAssignExpr]
+                          ) [DesignatorStmt]
+                        ) [StatementListGlobal]
+                        DesignatorStmt(
+                          DesignAssignExpr(
+                            DesignIdent(
+                             s2
+                            ) [DesignIdent]
+                            AssignOp(
+                            ) [AssignOp]
+                            ExprFirstOpt(
+                              ExprStartWithoutMinus(
+                                TermFactor(
+                                  ArrayFactor(
+                                    Type(
+                                     set
+                                    ) [Type]
+                                    ExprFirstOpt(
+                                      ExprStartWithoutMinus(
+                                        TermFactor(
+                                          NumFactor(
+                                           5
+                                          ) [NumFactor]
+                                        ) [TermFactor]
+                                      ) [ExprStartWithoutMinus]
+                                      NoExprAddopList(
+                                      ) [NoExprAddopList]
+                                    ) [ExprFirstOpt]
+                                  ) [ArrayFactor]
+                                ) [TermFactor]
+                              ) [ExprStartWithoutMinus]
+                              NoExprAddopList(
+                              ) [NoExprAddopList]
+                            ) [ExprFirstOpt]
+                          ) [DesignAssignExpr]
+                        ) [DesignatorStmt]
+                      ) [StatementListGlobal]
+                      DesignatorStmt(
+                        DesignAssignExpr(
+                          DesignIdent(
+                           s3
+                          ) [DesignIdent]
+                          AssignOp(
+                          ) [AssignOp]
+                          ExprFirstOpt(
+                            ExprStartWithoutMinus(
+                              TermFactor(
+                                ArrayFactor(
+                                  Type(
+                                   set
+                                  ) [Type]
+                                  ExprFirstOpt(
+                                    ExprStartWithoutMinus(
+                                      TermFactor(
+                                        NumFactor(
+                                         10
+                                        ) [NumFactor]
+                                      ) [TermFactor]
+                                    ) [ExprStartWithoutMinus]
+                                    NoExprAddopList(
+                                    ) [NoExprAddopList]
+                                  ) [ExprFirstOpt]
+                                ) [ArrayFactor]
+                              ) [TermFactor]
+                            ) [ExprStartWithoutMinus]
+                            NoExprAddopList(
+                            ) [NoExprAddopList]
+                          ) [ExprFirstOpt]
+                        ) [DesignAssignExpr]
+                      ) [DesignatorStmt]
+                    ) [StatementListGlobal]
+                    PrintStmt(
+                      ExprFirstOpt(
+                        ExprStartWithoutMinus(
+                          TermFactor(
+                            CharFactor(
+                             N
+                            ) [CharFactor]
+                          ) [TermFactor]
+                        ) [ExprStartWithoutMinus]
+                        NoExprAddopList(
+                        ) [NoExprAddopList]
+                      ) [ExprFirstOpt]
+                    ) [PrintStmt]
+                  ) [StatementListGlobal]
+                  PrintStmt(
+                    ExprFirstOpt(
+                      ExprStartWithoutMinus(
+                        TermFactor(
+                          CharFactor(
+                           M
+                          ) [CharFactor]
+                        ) [TermFactor]
+                      ) [ExprStartWithoutMinus]
+                      NoExprAddopList(
+                      ) [NoExprAddopList]
+                    ) [ExprFirstOpt]
+                  ) [PrintStmt]
+                ) [StatementListGlobal]
+                DesignatorStmt(
+                  DesignFunctionCalling(
+                    DesignIdent(
+                     add
+                    ) [DesignIdent]
+                    ActualParameterList(
+                      ActPars(
+                        ExprFirstOpt(
+                          ExprStartWithoutMinus(
+                            TermFactor(
+                              DesignatorVar(
+                                DesignIdent(
+                                 s2
+                                ) [DesignIdent]
+                              ) [DesignatorVar]
+                            ) [TermFactor]
+                          ) [ExprStartWithoutMinus]
+                          NoExprAddopList(
+                          ) [NoExprAddopList]
+                        ) [ExprFirstOpt]
+                        ExpressionList(
+                          NoExpressionList(
+                          ) [NoExpressionList]
+                          ExprFirstOpt(
+                            ExprStartWithoutMinus(
+                              TermFactor(
+                                NumFactor(
+                                 3
+                                ) [NumFactor]
+                              ) [TermFactor]
+                            ) [ExprStartWithoutMinus]
+                            NoExprAddopList(
+                            ) [NoExprAddopList]
+                          ) [ExprFirstOpt]
+                        ) [ExpressionList]
+                      ) [ActPars]
+                    ) [ActualParameterList]
+                  ) [DesignFunctionCalling]
+                ) [DesignatorStmt]
+              ) [StatementListGlobal]
+              PrintStmt(
+                ExprFirstOpt(
+                  ExprStartWithoutMinus(
+                    TermFactor(
+                      NumFactor(
+                       68
+                      ) [NumFactor]
+                    ) [TermFactor]
+                  ) [ExprStartWithoutMinus]
+                  NoExprAddopList(
+                  ) [NoExprAddopList]
+                ) [ExprFirstOpt]
+              ) [PrintStmt]
+            ) [StatementListGlobal]
+            DesignatorStmt(
+              DesignFunctionCalling(
+                DesignIdent(
+                 add
+                ) [DesignIdent]
+                ActualParameterList(
+                  ActPars(
+                    ExprFirstOpt(
+                      ExprStartWithoutMinus(
+                        TermFactor(
+                          DesignatorVar(
+                            DesignIdent(
+                             s2
+                            ) [DesignIdent]
+                          ) [DesignatorVar]
+                        ) [TermFactor]
+                      ) [ExprStartWithoutMinus]
+                      NoExprAddopList(
+                      ) [NoExprAddopList]
+                    ) [ExprFirstOpt]
+                    ExpressionList(
+                      NoExpressionList(
+                      ) [NoExpressionList]
+                      ExprFirstOpt(
+                        ExprStartWithoutMinus(
+                          TermFactor(
+                            NumFactor(
+                             4
+                            ) [NumFactor]
+                          ) [TermFactor]
+                        ) [ExprStartWithoutMinus]
+                        NoExprAddopList(
+                        ) [NoExprAddopList]
+                      ) [ExprFirstOpt]
+                    ) [ExpressionList]
+                  ) [ActPars]
+                ) [ActualParameterList]
+              ) [DesignFunctionCalling]
+            ) [DesignatorStmt]
+          ) [StatementListGlobal]
+          DesignatorStmt(
+            DesignFunctionCalling(
+              DesignIdent(
+               add
+              ) [DesignIdent]
+              ActualParameterList(
+                ActPars(
+                  ExprFirstOpt(
+                    ExprStartWithoutMinus(
+                      TermFactor(
+                        DesignatorVar(
+                          DesignIdent(
+                           s2
+                          ) [DesignIdent]
+                        ) [DesignatorVar]
+                      ) [TermFactor]
+                    ) [ExprStartWithoutMinus]
+                    NoExprAddopList(
+                    ) [NoExprAddopList]
+                  ) [ExprFirstOpt]
+                  ExpressionList(
+                    NoExpressionList(
+                    ) [NoExpressionList]
+                    ExprFirstOpt(
+                      ExprStartWithoutMinus(
+                        TermFactor(
+                          NumFactor(
+                           5
+                          ) [NumFactor]
+                        ) [TermFactor]
+                      ) [ExprStartWithoutMinus]
+                      NoExprAddopList(
+                      ) [NoExprAddopList]
+                    ) [ExprFirstOpt]
+                  ) [ExpressionList]
+                ) [ActPars]
+              ) [ActualParameterList]
+            ) [DesignFunctionCalling]
+          ) [DesignatorStmt]
+        ) [StatementListGlobal]
+        PrintStmt(
+          ExprFirstOpt(
+            ExprStartWithoutMinus(
+              TermFactor(
+                DesignatorVar(
+                  DesignIdent(
+                   s2
+                  ) [DesignIdent]
+                ) [DesignatorVar]
+              ) [TermFactor]
+            ) [ExprStartWithoutMinus]
+            NoExprAddopList(
+            ) [NoExprAddopList]
+          ) [ExprFirstOpt]
+        ) [PrintStmt]
+      ) [StatementListGlobal]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:07:34,507 - ===================================
+INFO  13:07:34,518 - Definisana je konstanta- nula -tipa int : Con nula: int, 0, 0 na liniji 5
+INFO  13:07:34,518 - Definisana je konstanta- jedan -tipa int : Con jedan: int, 1, 0 na liniji 6
+INFO  13:07:34,518 - Definisana je konstanta- pet -tipa int : Con pet: int, 5, 0 na liniji 7
+INFO  13:07:34,519 - Definisana je globalna nizovska promenljiva- niz -tipa int : Var niz: niz tipa int, 0, 0 na liniji 9
+INFO  13:07:34,519 - Definisana je globalna nizovska promenljiva- nizch -tipa char : Var nizch: niz tipa char, 1, 0 na liniji 10
+INFO  13:07:34,519 - Definisana je globalna promenljiva- a -tipa int : Var a: int, 2, 0 na liniji 12
+INFO  13:07:34,519 - Definisana je globalna promenljiva- s1 -tipa set : Var s1: set, 3, 0 na liniji 14
+INFO  13:07:34,519 - Definisana je globalna promenljiva- s2 -tipa set : Var s2: set, 4, 0 na liniji 14
+INFO  13:07:34,519 - Definisana je globalna promenljiva- s3 -tipa set : Var s3: set, 5, 0 na liniji 14
+INFO  13:07:34,519 - Obradjuje se funkcija main: Meth main: void, 0, 0 na liniji 17
+INFO  13:07:34,519 - Definisana je lokalna promenljiva- bodovi -tipa int : Var bodovi: int, 0, 1 na liniji 18
+INFO  13:07:34,519 - Definisana je lokalna promenljiva- temp -tipa int : Var temp: int, 1, 1 na liniji 19
+INFO  13:07:34,519 - Uspesno obradjena 'print' naredba na liniji 26
+INFO  13:07:34,519 - Uspesno obradjena 'print' naredba na liniji 27
+INFO  13:07:34,519 - Uspesno kreiran niz na liniji 29
+INFO  13:07:34,519 - Pristup elementu niza 'niz' na liniji 30
+INFO  13:07:34,519 - Pristup elementu niza 'niz' na liniji 31
+INFO  13:07:34,519 - Pristup elementu niza 'niz' na liniji 32
+INFO  13:07:34,519 - Pristup elementu niza 'niz' na liniji 32
+INFO  13:07:34,519 - Pristup elementu niza 'niz' na liniji 32
+INFO  13:07:34,519 - Pristup elementu niza 'niz' na liniji 33
+INFO  13:07:34,520 - Pristup elementu niza 'niz' na liniji 33
+INFO  13:07:34,520 - Uspesno obradjena 'print' naredba na liniji 34
+INFO  13:07:34,520 - Uspesno obradjena 'print' naredba na liniji 35
+INFO  13:07:34,520 - Pristup elementu niza 'niz' na liniji 36
+INFO  13:07:34,520 - Uspesno obradjena 'print' naredba na liniji 36
+INFO  13:07:34,520 - Uspesno obradjena 'print' naredba na liniji 37
+INFO  13:07:34,520 - Uspesno kreiran niz na liniji 39
+INFO  13:07:34,520 - Pristup elementu niza 'nizch' na liniji 40
+INFO  13:07:34,520 - Pristup elementu niza 'nizch' na liniji 41
+INFO  13:07:34,520 - Pristup elementu niza 'nizch' na liniji 42
+INFO  13:07:34,520 - Pristup elementu niza 'nizch' na liniji 43
+INFO  13:07:34,520 - Uspesno obradjena 'print' naredba na liniji 43
+INFO  13:07:34,520 - Uspesno obradjena 'print' naredba na liniji 44
+INFO  13:07:34,520 - Pristup elementu niza 'nizch' na liniji 45
+INFO  13:07:34,520 - Uspesno obradjena 'print' naredba na liniji 45
+INFO  13:07:34,520 - Uspesno obradjena 'print' naredba na liniji 46
+INFO  13:07:34,520 - Pristup elementu niza 'nizch' na liniji 47
+INFO  13:07:34,520 - Poziv funkcije 'ord' na liniji 47
+INFO  13:07:34,521 - Uspesno obradjena 'print' naredba na liniji 47
+INFO  13:07:34,521 - Uspesno obradjena 'read' naredba na liniji 50
+INFO  13:07:34,521 - dodelio sam minusu tip int na liniji 51
+INFO  13:07:34,521 - dodelio sam minusu tip int na liniji 52
+INFO  13:07:34,521 - Uspesno obradjena 'print' naredba na liniji 53
+INFO  13:07:34,521 - Uspesno obradjena 'print' naredba na liniji 54
+INFO  13:07:34,521 - Uspesno obradjena 'print' naredba na liniji 55
+INFO  13:07:34,522 - Uspesno obradjena 'print' naredba na liniji 56
+INFO  13:07:34,522 - Pristup elementu niza 'niz' na liniji 58
+INFO  13:07:34,522 - Pristup elementu niza 'niz' na liniji 58
+INFO  13:07:34,522 - Pristup elementu niza 'niz' na liniji 58
+INFO  13:07:34,522 - Uspesno obradjena 'print' naredba na liniji 59
+INFO  13:07:34,522 - Pristup elementu niza 'niz' na liniji 60
+INFO  13:07:34,522 - Uspesno obradjena 'print' naredba na liniji 60
+INFO  13:07:34,522 - Uspesno obradjena 'print' naredba na liniji 61
+INFO  13:07:34,522 - Uspesno kreiran skup na liniji 62
+INFO  13:07:34,522 - Uspesno kreiran skup na liniji 62
+INFO  13:07:34,522 - Uspesno kreiran skup na liniji 62
+INFO  13:07:34,522 - Uspesno obradjena 'print' naredba na liniji 63
+INFO  13:07:34,522 - Uspesno obradjena 'print' naredba na liniji 65
+INFO  13:07:34,522 - Poziv procedure add na liniji 67
+INFO  13:07:34,522 - Uspesno obradjena 'print' naredba na liniji 68
+INFO  13:07:34,522 - Poziv procedure add na liniji 70
+INFO  13:07:34,522 - Poziv procedure add na liniji 72
+INFO  13:07:34,522 - Uspesno obradjena 'print' naredba na liniji 73
+INFO  13:07:34,527 - Generisanje uspesno zavrseno!
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,528 - Prepoznata naredba read
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,528 - Prepoznata naredba print
+INFO  13:07:34,529 - Prepoznata naredba print
+INFO  13:07:34,529 - Prepoznata naredba print
+INFO  13:07:34,529 - Prepoznata naredba print
+INFO  13:07:34,529 - Prepoznata naredba print
+INFO  13:07:34,529 - Prepoznata naredba print
+INFO  13:07:34,529 - Prepoznata naredba print
+INFO  13:07:34,529 -  Print count calls = 22
+INFO  13:07:34,529 -  Read count calls = 1
+INFO  13:07:34,529 -  Var decl count = 0

@@ -48,22 +48,34 @@ public class MJParserTest {
 			log.info("===================================");
 			
 			//tabela simbola
-			Tab.init();
-			Struct boolType= new Struct(Struct.Bool);
-			Obj boolObj= Tab.insert(Obj.Type, "bool", boolType);
-			boolObj.setAdr(-1);
-			boolObj.setLevel(-1);
+			ExtendedTab.init();
+//			Struct boolType= new Struct(Struct.Bool);
+//			Obj boolObj= Tab.insert(Obj.Type, "bool", boolType);
+//			boolObj.setAdr(-1);
+//			boolObj.setLevel(-1);
 			
 			//III faza
 			SemanticAnalyzer semanl= new SemanticAnalyzer(); 
 			prog.traverseBottomUp(semanl);
 			
 			//ispisujem tabelu
-			Tab.dump();
+			ExtendedTab.dump();
 			
 			
 			if(!p.errorDetected && semanl.passed()) {
-				log.info("Parsiranje uspesno zavrseno!");
+				
+				//IV FAZA
+				File objFile = new File("test/program.obj");
+				if(objFile.exists())
+					objFile.delete();
+				CodeGenerator codegen = new CodeGenerator();
+				prog.traverseBottomUp(codegen);
+				Code.dataSize = semanl.nVars;
+				Code.mainPc = codegen.getMainPc();
+				Code.write(new FileOutputStream(objFile));
+				
+				log.info("Generisanje uspesno zavrseno!");
+				//log.info("Parsiranje uspesno zavrseno!");
 			}else {
 				log.error("Parsiranje NIJE uspesno zavrseno.");
 			}
@@ -73,6 +85,7 @@ public class MJParserTest {
 			prog.traverseBottomUp(v); 
 			
 			log.info(" Print count calls = " + v.printCallCount);
+			log.info(" Read count calls = " + v.readCallCount);
 			log.info(" Var decl count = " + v.varDeclCount);
 			
 		} 

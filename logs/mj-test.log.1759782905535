@@ -1,0 +1,251 @@
+INFO  22:34:25,452 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  22:34:25,513 - #2 program
+INFO  22:34:25,513 - #46 MJProgram
+INFO  22:34:25,514 - #3 const
+INFO  22:34:25,515 - #46 int
+INFO  22:34:25,515 - #46 a
+INFO  22:34:25,516 - #4 =
+INFO  22:34:25,516 - #47 3
+INFO  22:34:25,516 - #6 ,
+INFO  22:34:25,517 - #46 b
+INFO  22:34:25,517 - #4 =
+INFO  22:34:25,517 - #47 5
+INFO  22:34:25,518 - #5 ;
+INFO  22:34:25,518 - #46 char
+INFO  22:34:25,518 - #46 x
+INFO  22:34:25,518 - #6 ,
+INFO  22:34:25,519 - #46 y
+INFO  22:34:25,519 - #22 [
+INFO  22:34:25,519 - #23 ]
+INFO  22:34:25,519 - #5 ;
+INFO  22:34:25,519 - #26 {
+INFO  22:34:25,519 - #7 void
+INFO  22:34:25,522 - #46 main
+INFO  22:34:25,522 - #24 (
+INFO  22:34:25,522 - #25 )
+INFO  22:34:25,523 - #46 int
+INFO  22:34:25,524 - #46 s
+INFO  22:34:25,525 - #6 ,
+INFO  22:34:25,525 - #46 h
+INFO  22:34:25,525 - #22 [
+INFO  22:34:25,525 - #23 ]
+INFO  22:34:25,525 - #5 ;
+INFO  22:34:25,525 - #46 int
+INFO  22:34:25,525 - #46 a
+INFO  22:34:25,525 - #5 ;
+INFO  22:34:25,525 - #26 {
+INFO  22:34:25,525 - #13 print
+INFO  22:34:25,525 - #24 (
+INFO  22:34:25,525 - #29 -
+INFO  22:34:25,525 - #46 x
+INFO  22:34:25,526 - #25 )
+INFO  22:34:25,527 - #5 ;
+INFO  22:34:25,527 - #27 }
+INFO  22:34:25,527 - #46 int
+INFO  22:34:25,528 - #46 f
+INFO  22:34:25,528 - #24 (
+INFO  22:34:25,528 - #46 int
+INFO  22:34:25,528 - #46 x
+INFO  22:34:25,529 - #6 ,
+INFO  22:34:25,529 - #46 char
+INFO  22:34:25,529 - #46 b
+INFO  22:34:25,529 - #6 ,
+INFO  22:34:25,529 - #46 int
+INFO  22:34:25,529 - #46 f
+INFO  22:34:25,529 - #6 ,
+INFO  22:34:25,529 - #46 bool
+INFO  22:34:25,529 - #46 k
+INFO  22:34:25,529 - #25 )
+INFO  22:34:25,530 - #46 int
+INFO  22:34:25,530 - #46 s
+INFO  22:34:25,530 - #5 ;
+INFO  22:34:25,530 - #26 {
+INFO  22:34:25,530 - #27 }
+INFO  22:34:25,530 - #27 }
+INFO  22:34:25,533 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDeclaration(
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstantList(
+            SingleConstAssign(
+              ListElems(
+               a
+                ConstNum(
+                 3
+                ) [ConstNum]
+              ) [ListElems]
+            ) [SingleConstAssign]
+            ListElems(
+             b
+              ConstNum(
+               5
+              ) [ConstNum]
+            ) [ListElems]
+          ) [ConstantList]
+        ) [ConstDecl]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VariableDecl(
+        Type(
+         char
+        ) [Type]
+        RestVariableDecl(
+          SingleVarAssign(
+            VarAssign_var(
+             x
+            ) [VarAssign_var]
+          ) [SingleVarAssign]
+          VarAssign_array(
+           y
+          ) [VarAssign_array]
+        ) [RestVariableDecl]
+      ) [VariableDecl]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MethodSignature(
+          MethodStartVoid(
+           main
+          ) [MethodStartVoid]
+          NoFormParsOptional(
+          ) [NoFormParsOptional]
+        ) [MethodSignature]
+        VariableDeclList(
+          VariableDeclList(
+            NoVarDecList(
+            ) [NoVarDecList]
+            VariableDecl(
+              Type(
+               int
+              ) [Type]
+              RestVariableDecl(
+                SingleVarAssign(
+                  VarAssign_var(
+                   s
+                  ) [VarAssign_var]
+                ) [SingleVarAssign]
+                VarAssign_array(
+                 h
+                ) [VarAssign_array]
+              ) [RestVariableDecl]
+            ) [VariableDecl]
+          ) [VariableDeclList]
+          VariableDecl(
+            Type(
+             int
+            ) [Type]
+            SingleVarAssign(
+              VarAssign_var(
+               a
+              ) [VarAssign_var]
+            ) [SingleVarAssign]
+          ) [VariableDecl]
+        ) [VariableDeclList]
+        StatementListGlobal(
+          NoStatementList(
+          ) [NoStatementList]
+          PrintStmt(
+            ExprFirstOpt(
+              ExprStartWithMinus(
+                TermFactor(
+                  DesignatorVar(
+                    DesignIdent(
+                     x
+                    ) [DesignIdent]
+                  ) [DesignatorVar]
+                ) [TermFactor]
+              ) [ExprStartWithMinus]
+              NoExprAddopList(
+              ) [NoExprAddopList]
+            ) [ExprFirstOpt]
+          ) [PrintStmt]
+        ) [StatementListGlobal]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartType(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [MethodStartType]
+        FormalParsOptional(
+          FormPars(
+            FormalParsList(
+              FormalParsList(
+                FormalParsList(
+                  SingleParam(
+                    Param_var(
+                      Type(
+                       int
+                      ) [Type]
+                     x
+                    ) [Param_var]
+                  ) [SingleParam]
+                  Param_var(
+                    Type(
+                     char
+                    ) [Type]
+                   b
+                  ) [Param_var]
+                ) [FormalParsList]
+                Param_var(
+                  Type(
+                   int
+                  ) [Type]
+                 f
+                ) [Param_var]
+              ) [FormalParsList]
+              Param_var(
+                Type(
+                 bool
+                ) [Type]
+               k
+              ) [Param_var]
+            ) [FormalParsList]
+          ) [FormPars]
+        ) [FormalParsOptional]
+      ) [MethodSignature]
+      VariableDeclList(
+        NoVarDecList(
+        ) [NoVarDecList]
+        VariableDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarAssign(
+            VarAssign_var(
+             s
+            ) [VarAssign_var]
+          ) [SingleVarAssign]
+        ) [VariableDecl]
+      ) [VariableDeclList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:34:25,533 - ===================================
+INFO  22:34:25,540 - Definisana je konstanta- a -tipa int : Con a: int, 3, 0 na liniji 3
+INFO  22:34:25,540 - Definisana je konstanta- b -tipa int : Con b: int, 5, 0 na liniji 3
+INFO  22:34:25,541 - Definisana je globalna promenljiva- x -tipa char : Var x: char, 0, 0 na liniji 5
+INFO  22:34:25,541 - Definisana je globalna nizovska promenljiva- y -tipa char : Var y: niz tipa char, 1, 0 na liniji 5
+INFO  22:34:25,541 - Obradjuje se funkcija main: Meth main: void, 0, 0 na liniji 9
+INFO  22:34:25,541 - Definisana je lokalna promenljiva- s -tipa int : Var s: int, 0, 1 na liniji 9
+INFO  22:34:25,541 - Definisana je lokalna nizovska promenljiva- h -tipa int : Var h: niz tipa int, 1, 1 na liniji 9
+INFO  22:34:25,541 - Definisana je lokalna promenljiva- a -tipa int : Var a: int, 2, 1 na liniji 9

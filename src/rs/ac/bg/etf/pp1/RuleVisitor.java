@@ -7,6 +7,7 @@ public class RuleVisitor extends VisitorAdaptor{
 	
 	int printCallCount = 0;
 	int varDeclCount = 0;
+	int readCallCount = 0;
 	
 	Logger log = Logger.getLogger(getClass());
 
@@ -18,6 +19,17 @@ public class RuleVisitor extends VisitorAdaptor{
 		printCallCount++;
 		log.info("Prepoznata naredba print");
 	}
+    
+    public void visit(PrintStmt1 print) {
+		printCallCount++;
+		log.info("Prepoznata naredba print");
+	}
+    
+    public void visit(ReadStmt read) {
+    	readCallCount++;
+		log.info("Prepoznata naredba read");
+	}
+    
 	
 
 }

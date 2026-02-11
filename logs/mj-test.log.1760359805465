@@ -1,0 +1,157 @@
+INFO  14:42:16,704 - Compiling source file: C:\Users\NATALIJA\OneDrive\Desktop\PP1projekat\workspace\MJCompiler\test\program.mj
+INFO  14:42:16,737 - #2 program
+INFO  14:42:16,737 - #46 MJProgram
+INFO  14:42:16,737 - #3 const
+INFO  14:42:16,738 - #46 int
+INFO  14:42:16,738 - #46 a
+INFO  14:42:16,738 - #4 =
+INFO  14:42:16,739 - #47 2
+INFO  14:42:16,739 - #5 ;
+INFO  14:42:16,739 - #46 int
+INFO  14:42:16,740 - #46 x
+INFO  14:42:16,740 - #6 ,
+INFO  14:42:16,740 - #46 y
+INFO  14:42:16,740 - #22 [
+INFO  14:42:16,740 - #23 ]
+INFO  14:42:16,740 - #5 ;
+INFO  14:42:16,740 - #26 {
+INFO  14:42:16,740 - #7 void
+INFO  14:42:16,741 - #46 main
+INFO  14:42:16,741 - #24 (
+INFO  14:42:16,741 - #25 )
+INFO  14:42:16,741 - #46 int
+INFO  14:42:16,744 - #46 a
+INFO  14:42:16,744 - #6 ,
+INFO  14:42:16,744 - #46 b
+INFO  14:42:16,744 - #5 ;
+INFO  14:42:16,744 - #46 char
+INFO  14:42:16,744 - #46 c
+INFO  14:42:16,744 - #22 [
+INFO  14:42:16,744 - #23 ]
+INFO  14:42:16,744 - #5 ;
+INFO  14:42:16,744 - #26 {
+INFO  14:42:16,744 - #13 print
+INFO  14:42:16,745 - #24 (
+INFO  14:42:16,745 - #47 1
+INFO  14:42:16,745 - #25 )
+INFO  14:42:16,745 - #5 ;
+INFO  14:42:16,745 - #27 }
+INFO  14:42:16,746 - #27 }
+INFO  14:42:16,747 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDeclaration(
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstAssign(
+            ListElems(
+             a
+              ConstNum(
+               2
+              ) [ConstNum]
+            ) [ListElems]
+          ) [SingleConstAssign]
+        ) [ConstDecl]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VariableDecl(
+        Type(
+         int
+        ) [Type]
+        RestVariableDecl(
+          SingleVarAssign(
+            VarAssign_var(
+             x
+            ) [VarAssign_var]
+          ) [SingleVarAssign]
+          VarAssign_array(
+           y
+          ) [VarAssign_array]
+        ) [RestVariableDecl]
+      ) [VariableDecl]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodStartVoid(
+         main
+        ) [MethodStartVoid]
+        NoFormParsOptional(
+        ) [NoFormParsOptional]
+      ) [MethodSignature]
+      VariableDeclList(
+        VariableDeclList(
+          NoVarDecList(
+          ) [NoVarDecList]
+          VariableDecl(
+            Type(
+             int
+            ) [Type]
+            RestVariableDecl(
+              SingleVarAssign(
+                VarAssign_var(
+                 a
+                ) [VarAssign_var]
+              ) [SingleVarAssign]
+              VarAssign_var(
+               b
+              ) [VarAssign_var]
+            ) [RestVariableDecl]
+          ) [VariableDecl]
+        ) [VariableDeclList]
+        VariableDecl(
+          Type(
+           char
+          ) [Type]
+          SingleVarAssign(
+            VarAssign_array(
+             c
+            ) [VarAssign_array]
+          ) [SingleVarAssign]
+        ) [VariableDecl]
+      ) [VariableDeclList]
+      StatementListGlobal(
+        NoStatementList(
+        ) [NoStatementList]
+        PrintStmt(
+          ExprFirstOpt(
+            ExprStartWithoutMinus(
+              TermFactor(
+                NumFactor(
+                 1
+                ) [NumFactor]
+              ) [TermFactor]
+            ) [ExprStartWithoutMinus]
+            NoExprAddopList(
+            ) [NoExprAddopList]
+          ) [ExprFirstOpt]
+        ) [PrintStmt]
+      ) [StatementListGlobal]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:42:16,747 - ===================================
+INFO  14:42:16,752 - Definisana je konstanta- a -tipa int : Con a: int, 2, 0 na liniji 3
+INFO  14:42:16,752 - Definisana je globalna promenljiva- x -tipa int : Var x: int, 0, 0 na liniji 4
+INFO  14:42:16,752 - Definisana je globalna nizovska promenljiva- y -tipa int : Var y: niz tipa int, 1, 0 na liniji 4
+INFO  14:42:16,752 - Obradjuje se funkcija main: Meth main: void, 0, 0 na liniji 6
+INFO  14:42:16,752 - Definisana je lokalna promenljiva- a -tipa int : Var a: int, 0, 1 na liniji 6
+INFO  14:42:16,752 - Definisana je lokalna promenljiva- b -tipa int : Var b: int, 1, 1 na liniji 6
+INFO  14:42:16,752 - Definisana je lokalna nizovska promenljiva- c -tipa char : Var c: niz tipa char, 2, 1 na liniji 6
+INFO  14:42:16,752 - Uspesno obradjena 'print' naredba na liniji 7
+INFO  14:42:16,754 - Generisanje uspesno zavrseno!
+INFO  14:42:16,755 - Prepoznata naredba print
+INFO  14:42:16,755 -  Print count calls = 1
+INFO  14:42:16,755 -  Read count calls = 0
+INFO  14:42:16,755 -  Var decl count = 0
