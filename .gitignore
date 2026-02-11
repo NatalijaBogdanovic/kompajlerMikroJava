@@ -1,0 +1,11 @@
+# Ignoriši sve log fajlove
+logs/*.log*
+*.log
+
+# Ignoriši kompajlirane Java klase (binarni fajlovi)
+*.class
+bin/
+src/**/*.class
+
+# Ignoriši privremene fajlove editora
+*.java~
